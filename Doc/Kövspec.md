@@ -32,6 +32,73 @@ A cégünk szeretne létrehozni egy olyan weboldal amely segítene a megbeszél�
 A projekt célja az hogy létrehozzunk egy olyan rendszert, ami segíti a minden napi eltünket rendezni, illetve elősegíteni annak minőségét. A rendszert szeretnénk úgy létrehozni, hogy ez minél több ember számára elérhető legyen. Erre legalkalmasabb felületnek egy weboldalt gondolunk, hiszen az bármilyen eszközről elérhető, feltéve ha van internet kapcsolatunk. Ahhoz, hogy elérjük a Naptárt be kell majd jelentkezni, így mindenki számára egyéni beállítások lesznek elérhetők. Az alkalmazáson belűl lehetőség lesz adott témák közűl választani, amiket a napokhoz hozzá rendelhetünk, mint pl: szabadidő, kinti foglalkozás, azon belül egyéb események lesznek megadva ezzel elérve, hogy minnél pontosabb értesítést, ajánlást kapjon a felhasználó az adott napról. Az oldalhoz hozzá lesz rendelve egy időjárás elöre jelzés, ahhonan be szerezzük a szükséges információkat az adott napról. A fent említett 'értesítések, ajánlások' ezeket takarják. Továbbá a bejelentkezés után lesz elérhető a Naptár. Ezen belűl szertnénk egy olyan mezőt létrehozni, ahhol az elkövetkező események jelennek majd meg (az adott heti események), egy időjárás előre jelzést és szerkezthetőség mezőt is szeretnénk hozzáadni. Továbbá célunk, hogy az oldal reszponzív legyen mind asztali mind mobil készülékeken.
 
 ---
+
+## Szabad riport
+## Hogyan kéne működnie a rendszernek?
+
+Az oldal bármeliyk internettel rendelkező és webböngészővel rendelkező eszközröl elérhető. Amint megnyitjuk az oldalt,egy kis egyszerű html oldal tárul elénk. Ezen az oldalon egy átlagos naptár és egy idő előrejelzés található,illetve egy login azaz beléptetési rendszer. Innen a "Login system-re" beléptetési lehetőségre kattintva egy teljesen új oldalra átírányiít minket az adott böngésző. Itt van lehetőségünk választani hogy regisztrálni,vagy bejelentkezni szeretnénk. A regisztráció történhet manuálisan,továbbá google és facebook-al. Sikertelen bejelentkezés esetén kapunk egy megfelelő kis hibaüzenetet hogy miért nem sikerült bejelentkeznünk. Sikeres bejelentkezés esetén átírányít minket a főoldalra. Bal oldalt egy naptárt alatta a közelgő programokat jelzni nekünk az oldal. Jobb oldalt esemény hozzáadaása illetve egy időjárás előrejelzés látható. A naptárban bárki bármilyen programot létrehozhat. A programhoz hozzárendlehet egy helysziní tulajdonságot  mely segít a speciális támogató funkcióval elátott időjárás előrejelzésünket hogy megfelelő figyelmeztetéssel jelezze a felhasználó felé hogy az időjárás nem alkalmas vagy nem ajánlott az adott programhoz. Két ütköző program esetén egy megfelelő hibajelzés jelenik meg. A program előtt ha figyelmetlenek volnánk még email formályában is értesítést küld hogy el ne felejtsük a programot.
+
+## Irányított riport
+
+### Kötelező beregisztrálni?
+Nem, de ajánlott.
+
+### Lehet regisztrálni manuálisan?
+Igen, természetesen lehet.
+
+### Facebookal  lehet regisztrálni?
+Igen, lehet.
+
+### Google-el  lehet regisztrálni?
+Igen, lehet.
+
+### Nyári programok szervezésére is van lehetőség?
+Igen, van.
+
+### Lehet rögzíteni programokat a naptárban?
+Igen, van rá lehetőség.
+
+### Kapcsolatba lehet lépni a fejlesztőkkel?
+Igen, kapcsolatba lehet lépni velük emailen keresztül.
+
+### Több szolgáltatást nyújt mint egy sima szervező program?
+Igen, az időjárás kisegítő funkció miatt is részben.
+
+### Tavaszi programok szervezésére is van lehetőség?
+Igen, van.
+
+### Nagyban megkönnyíti a program szervezést?
+Igen, hisz erre a célra lett kitalálva.
+
+### Ha elfelejteném a programomat értesít valamilyen formában?
+Igen, emailben.
+
+### Megbízhatóak az időjárás előrejelzések?
+Igen, pont annyira amennyire a többi időjárás előrejelző lehetőség.
+
+### Az időjárás jelzés minden várost tartalmaz?
+Nem,de a lehető tegtöbbet igen hisz erre törekszünk.
+
+### Téli programok szervezésére is van lehetőség?
+Igen, van.
+
+### Nagy rendszerigénye van?
+Nem, szinte semmi mivel ez egy weboldal.
+
+### Bármelyik eszközről elérhető? 
+Igen, feltéve ha rendelkezik böngészővel is internettel az eszköz.
+
+### Egyszerűen kezelhető?
+Igen, kifejezetten felhasználó barát.
+
+### Hogyan jelzem hogy milyen helyszínen lesz a program?
+Egyszerűen a program létrehozásakor adja magát a lehetőség hogy válasszuk ki a megfelelő helyszínt.
+
+### Várhatóan időben kész lesz?
+Igen, teljes mértékben.
+
+
+
 ## Fogalomszótár
 1. **Reszponzív felület** - Mobilon, Tableten, *PC*-n igazodik a képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül üzemelhet.”
 2. **Login system** - Bejentkezéshez elkészített rendszer, ahhol felhasználónév plusz jelszó szükséges a belépéshez.
