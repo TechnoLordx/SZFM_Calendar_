@@ -64,3 +64,66 @@ A beta teszt pedig már lehet nyilvános is, ilyenkor akárki tesztelheti, aki s
 * Más háttér alkalmazása
 
 Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem található a programban, és a mások által feltett és a fejlesztő által elfogadott változtatásokat, újításokat is implementáltuk. Ezután meg is történhet a szoftver első kiadása.
+
+## A rendszer céljai:
+* Egy jól átlátható felület létrehozása.
+* Jól olvasható szöveg, jól elkülönített tartalom.
+* Feltűnő és érdekes kinézet.
+* Az oldal átméretezése során, az oldal tartalma változzon úgy hogy, jól olvasható maradjon.
+* Interaktív szöveg és gombok segítsék a felhasználót.
+* Az oldal készítőinek elérhetőségeit feltüntetni.
+* Jól működő login system
+* Időjárás jelzése
+* Valamilyen szavazási rendszer
+* Az oldal könnyen kezelhető legyen.
+* A felhasználó életének megkönnyítése. 
+* A felhasználók adatainak bizalmas kezelése.
+* A Felhasználók elkülönítése rangszerint
+* A felhasználók egymáskozött az eseményeket megoszthassák.
+* Programok rögzítése
+* Időpont ütkozések problémájának lekezelése.
+* Felmerülő ajánlások vagy esetleg figyelmeztetések mihamarabbi küldése.
+* A szerkezthetőség mező eggyértelmű legyen.
+* Minnél több esmény téma hozzáadása, ezáltal pontosabb ajánlások.
+* Kommunikálni oldalon kívül a felhasználóval
+
+## A rendszer nem céljai:
+* Túl zsúfolt kezelő felelület.
+* Összezavaró menürendszer. 
+* Reklám megjelenítések.
+* Felesleges felhasználói rangok
+* "Like/Dislike" alapú szavazási rendszer kialakítása a hozzászólások megbízhatóságának megszavazása érdekében.
+* Spam e-mail küldése a felhasználólnak.
+* A felhasználó adatainak felhasználásaT
+* Social regisztráció lehetőség
+
+# A projekten dolgozók listája és feladatai:
+
+1. Bezerédi Erik - FullStack programozó
+2. Vass Bálint - FullStack programozó
+3. Ilés Zoltán - FullStack programozó
+4. Kocsis Olivér - FullStack programozó
+
+* Bezerédi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
+* Vass Bálint felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
+* Illés Zoltán felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
+* Kocsis Olivér felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
+
+<img src="Fejlesztőkjo.png" alt="Használati eset minta" style="height:200; width:300;"/>
+
+## Fizikai környezet
+
+Visual studio code-ot használtunk a PHP,CSS,HTML illetve a javascript kódok megírásához. A weboldal megjelenítéséhez külön vásásrolt domaint illetve tárhelyet használunk. Az oldal jelenlegi teszteléséhez XAMOT használunk. Ezen belül futtatunk egy localis szervert és egy localis tárhelyet mellyet később éles webszerverre cserélünk.
+
+### File tipusok
++ Css
++ PHP
++ java script
++ HTML
+
+### Kölső szoftverek
+
++ Visual studo code
++ XAMP
++ ....
++ ....
