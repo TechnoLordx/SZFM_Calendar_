@@ -127,3 +127,29 @@ Visual studio code-ot használtunk a PHP,CSS,HTML illetve a javascript kódok me
 + XAMP
 + ....
 + ....
+
+## Architektúrális terv
+
+A weblap egy szerveren fut, amit bárki bármikor elérhet megfelelő ha rendelkezik valamilyen internet szolgáltatással.
+AZ átlagos felhasználó az oldalt nem tudja módosítani, viszont az admin szintű felhasználó már képes erre.
+A dokumentumok nincsenek titkosítva.
+
+## Adatbázis terv
+
+Az adattárolás a weblap segítségével valósul meg. Ahhol a "ketegóriák" szerint tároljuk az adatokat.
+### ID:
+Azonosító ami a primary kulcs is egyedi minden felhasználónak.
+### Firstname:
+Családnév mely a regisztrációnal kötelező.
+### Surname: 
+Keresztnév mely a regisztrációnal kötelező.
+### email: 
+Email cím mely a regisztrációnal kötelező.
+### jelszó:
+Jelszó mely a regisztrációnal kötelező. Ezzel lehet bejelentkezni az oldalra. Egyedi minden felhasználónál.
+### Felhasználó név
+Felhasználó egyedi azonosító bejelentkezésnél kötleező
+### Role:
+Role mely a regisztrációnal kötelező szerepe az hogy eldönti hogy tudjuk vagy nem tudjuk módosítani a webodlalt.
+### Gender:
+Nem szerinti elkülönítés regisztrációnal van szerepe.
