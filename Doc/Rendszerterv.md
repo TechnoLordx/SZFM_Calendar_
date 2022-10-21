@@ -192,6 +192,7 @@ Visual studio code-ot használtunk a PHP,CSS,HTML illetve a javascript kódok me
 
 ## Architektúrális terv
 
+
 A weblap egy online szerveren fut, amit bárki bármikor elérhet megfelelő ha rendelkezik valamilyen internet szolgáltatással.
 
 Backend:
