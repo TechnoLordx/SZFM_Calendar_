@@ -171,8 +171,6 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 * Illés Zoltán felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
 * Kocsis Olivér felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
 
-<img src="Fejlesztőkjo.png" alt="Használati eset minta" style="height:200; width:300;"/>
-
 ## Fizikai környezet
 
 Visual studio code-ot használtunk a PHP,CSS,HTML illetve a javascript kódok megírásához. A weboldal megjelenítéséhez külön vásásrolt domaint illetve tárhelyet használunk. Az oldal jelenlegi teszteléséhez XAMOT használunk. Ezen belül futtatunk egy localis szervert és egy localis tárhelyet mellyet később éles webszerverre cserélünk.
@@ -182,40 +180,78 @@ Visual studio code-ot használtunk a PHP,CSS,HTML illetve a javascript kódok me
 + PHP
 + java script
 + HTML
++ jquarry
 
 ### Kölső szoftverek
 
 + Visual studo code
 + XAMP
++ Weather api
 + ....
 + ....
 
 ## Architektúrális terv
 
-A weblap egy szerveren fut, amit bárki bármikor elérhet megfelelő ha rendelkezik valamilyen internet szolgáltatással.
-AZ átlagos felhasználó az oldalt nem tudja módosítani, viszont az admin szintű felhasználó már képes erre.
-A dokumentumok nincsenek titkosítva.
+
+A weblap egy online szerveren fut, amit bárki bármikor elérhet megfelelő ha rendelkezik valamilyen internet szolgáltatással.
+
+Backend:
+A rendszerhez szükség van egy adatbázis szerverre mely myisam tárolási elven működik. 
+Ebben az esetben MySql-t használunk. A kliens oldali programokat egy javasript alapú api
+szolgálja ki, ez csatlakozik az adatbázis szerverhez is mely képes fogadni és küldeni vagy változtatni 
+adatokat vagy éppen újjakat létrehozni 
+Web Kliens:
+A web alkalmazás microsoft.net keretrendszer használatával készül el. A javasript alapú
+lekérő rendszer segítségével az adatokat küldeni és fogadni is tudja. A userek be tudnak lépni
+szintén egy javascript alapú lekérdezés dönti el hogy jogosult-e a belépésre.
+Ez biztosítja, hogy illetéktelen felhasználók ne módosíthassák az adatokat.
 
 ## Adatbázis terv
 
-Az adattárolás a weblap segítségével valósul meg. Ahhol a "ketegóriák" szerint tároljuk az adatokat.
-### ID:
-Azonosító ami a primary kulcs is egyedi minden felhasználónak.
-### Firstname:
-Családnév mely a regisztrációnal kötelező.
-### Surname: 
-Keresztnév mely a regisztrációnal kötelező.
-### email: 
-Email cím mely a regisztrációnal kötelező.
-### jelszó:
-Jelszó mely a regisztrációnal kötelező. Ezzel lehet bejelentkezni az oldalra. Egyedi minden felhasználónál.
-### Felhasználó név
-Felhasználó egyedi azonosító bejelentkezésnél kötleező
-### Role:
-Role mely a regisztrációnal kötelező szerepe az hogy eldönti hogy tudjuk vagy nem tudjuk módosítani a webodlalt.
-### Gender:
-Nem szerinti elkülönítés regisztrációnal van szerepe.
+Az adattárolás egy mysql táblák segítségével valósul meg. A login system is ilyen tábla alapján csatlakozik. Egy users tábla tárolja a regisztrációnál tárolt adatokat mellyeket vissza is hív így ellenőrizve hogy a felhasználó jogosult-e a belépéshez. A naptár a naptár_data mysql fileból tölti be vagy törli vagyé épp adja hozzá a terveztett programot. A weather fetch egy openweather api nevű külső szolgáltatástól kéri le az adatokat mellyeket meg is jelenít.
 
+<img src="kep1.png" alt="Adatbázis terv" style="height:200; width:300;"/>
+
+## User
+
+### ID:
+Azonosító ami a primary kulcs is egyedi minden felhasználónak.Int alapú maximális hossza 100 karakter.
+### Firstname:
+Családnév mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+### Surname: 
+Keresztnév mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+### email: 
+Email cím mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+### jelszó:
+Jelszó mely a regisztrációnal kötelező. Ezzel lehet bejelentkezni az oldalra. Egyedi minden felhasználónál.Varchar tipúsú maximális hossza 100 karakter.
+### Felhasználó név
+Felhasználó egyedi azonosító bejelentkezésnél kötelező.Varchar tipúsú maximális hossza 100 karakter.
+### Role:
+Role mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+### Gender:
+Nem szerinti elkülönítés regisztrációnal van szerepe.Varchar tipúsú maximális hossza 100 karakter.
+
+## Calendar_data
+
+### id
+Azonosító ami a primary kulcs is egyedi minden felhasználónak.Int alapú maximális hossza 100 karakter.
+### title
+Neve a programnak.Varchar típus maximális hossza 100 karakter.
+### description
+Leírás a programról.Varchar típus maximális hossza 100 karakter.
+### Start_datetime
+Mikor kezdődik a program.Datetime típus
+### end_datetime
+Meddig tart a program.Datetime típus
+
+## Karbantartási terv
+A weblap folyamatos üzemeltetése és karbantartása, mely magában foglalja az esetleges hibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott weblap, illetve állomány módosítási igényeket. Idő elteltével új témákat kell hozzáadni a weblaphoz, hogy fent tartsuk az érdeklődési szintet.
+
+### Karbantartás
+Corrective Maintenance: A felhasználók által felfedezett és "user reportban" elküldött hibák kijavítása.
+Adaptive Maintenance: A program naprakészen tartása és finomhangolása.
+Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett módosítások, új funkciók, a weboldal teljesítményének és működési megbízhatóságának javítása.
+Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
 
 
 ---
