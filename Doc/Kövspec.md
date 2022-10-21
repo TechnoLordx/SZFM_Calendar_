@@ -43,7 +43,7 @@ Ha szabadtéri eseményt terveztünk be, könnyen lehet, hogy nem tudjuk megszer
 ## Igényelt üzleti folyamatok
 * **Miért lesz különleges ez a naptár:** A naptár mellett lesz egy időjárást mutató ablak is.
 Így az adott napról tájékoztatást kapunk, hogy megérné-e nekünk az adott eseményt akkor tartani.
-Például, ha szabadtéri eseményt akarunk rendezni, akkor látjuk, hogy aznap milyen lesz az idő és ezt figyelembe véve ezt hozhatjuk meg a döntést. <br>
+Például, ha szabadtéri eseményt akarunk rendezni, akkor látjuk, hogy aznap milyen lesz az idő és ezt figyelembe véve ezt hozhatjuk meg a döntést.
 * **Login:** Ha felvesz egy eseményt adott időpontra a felhasználó, akkor ezt tárolnunk kell.
 Ebben egy Login System fog segíteni nekünk.
 Az adatok tárolása bejelentkezéshez lesz kötve, hogy mindenhonnan elérhető legyen.
