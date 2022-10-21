@@ -55,22 +55,26 @@ A cégünk szeretne létrehozni egy olyan weboldal amely segítene a megbeszél�
 
 ---
 
-## Jelenlegi üzleti folyamatok modellje
+## Jelenlegi üzleti folyamatok
 Sok naptár létezik az interneten, ahol fel tudjuk venni adott napra a teendőket, vagy csak nem szeretnénk elfelejteni valakinek a születésnapját, akár emlékeztetőt is rakhatunk.
 Ezek a weblapok/appok hasznosak nagyon, de nem figyelmeztetnek a külső részletekről, mint például az időjárásról.
 Ha szabadtéri eseményt terveztünk be, könnyen lehet, hogy nem tudjuk megszervezni az eső, vagy egy erős szél miatt.
 
 ---
 
-## Igényelt üzleti folyamatok modellje
-A naptár mellett lesz egy időjárást mutató ablak is.
+## Igényelt üzleti folyamatok
+* **Miért lesz különleges ez a naptár:** A naptár mellett lesz egy időjárást mutató ablak is.
 Így az adott napról tájékoztatást kapunk, hogy megérné-e nekünk az adott eseményt akkor tartani.
-Például, ha szabadtéri eseményt akarunk rendezni, akkor látjuk, hogy aznap milyen lesz az idő és ezt figyelembe véve ezt hozhatjuk meg a döntést. <br>
-Ha felvesz egy eseményt adott időpontra a felhasználó, akkor ezt tárolnunk kell.
+Például, ha szabadtéri eseményt akarunk rendezni, akkor látjuk, hogy aznap milyen lesz az idő és ezt figyelembe véve ezt hozhatjuk meg a döntést.
+* **Login:** Ha felvesz egy eseményt adott időpontra a felhasználó, akkor ezt tárolnunk kell.
 Ebben egy Login System fog segíteni nekünk.
 Az adatok tárolása bejelentkezéshez lesz kötve, hogy mindenhonnan elérhető legyen.
 Regisztráció és bejelentkezés kötelező lesz.
 Amint megtörténik a bejelentkezés, már kezdhetjük is az események létrehozását.
+* **Regisztráció:** Egyedi felhasználónév, létező és megfelelő email cím, megfelelő hosszúságú és elég erős jelszó megadása.
+Felhasználó tájékoztatása a nem megfelelő adatok megadásáról.
+A jelszó megerősítése szükséges újra megadásával.
+Belépés felhasználónév és jelszóval történik.
 
 ---
 
