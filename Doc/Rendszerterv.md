@@ -127,6 +127,34 @@ A beta teszt pedig már lehet nyilvános is, ilyenkor akárki tesztelheti, aki s
 
 Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem található a programban, és a mások által feltett és a fejlesztő által elfogadott változtatásokat, újításokat is implementáltuk. Ezután meg is történhet a szoftver első kiadása.
 
+## Követelméyeink
+
+* A naptár kezelésével kapcsolatban:
+	* A funkciók eléérései legyenek jól láthatók, elérhetők.
+	* Legyen könnyen kezelhető valamint jól átlátható.
+    * Interaktív menük, gombok használata.
+* A vizuális felülettel kapcsolatban:
+	* A vizualis felület legyen tetszetős/kidolgozott, még sem túl komplikált.
+	* Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funkciók hol találhatók, és nem kell kutatni utánuk).
+	* Az oldal különböző elemei jól különüljenek el egymástól.
+    * A stílus megváltoztatási lehetőége.
+    * Az oldal különböző részei vátoznak, alkalmazkodnak a méretarányokhoz.
+* A naptár funkcióival kapcsolatban:
+	* A weboldalnak képesnek kell lennie elmenteni a haladást, azokat cselekvéseket amelyeket a felhasználó végrehajtott, és ezeket elő kell tudni hívnia készüléktől függetlenül.
+		* Ez azért olyan fontos, hogy ha nincsen a saját eszköze a közelben bejelentkezés után más eszközről is megtudja nézni a fiókját.
+	* Események előtt jelezzen a program az esemény ideőpontjának közelségéről.
+        * Értesít alkalmazáson keresztül, illetve emailen kapott levél segítségével.
+	* Időjárási adatai napra készek legyenek.
+        * Jól nézzen ki rendezett legyen, illetve adatai változzanak folyamatosan az időjáráshoz illően.
+
+
+<img src="oldal_vazlat.png" alt="Oldal vázlata" />
+<br><br>
+
+## Funkcionalitást mutató ábrák
+<img src="rendszerterv_1.png" alt="Oldal vázlata" />
+
+
 ## A rendszer céljai:
 * Egy jól átlátható felület létrehozása.
 * Jól olvasható szöveg, jól elkülönített tartalom.
@@ -158,6 +186,18 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 * Spam e-mail küldése a felhasználólnak.
 * A felhasználó adatainak felhasználásaT
 * Social regisztráció lehetőség
+
+## Forgatókönyv
+### Egy program megszervezése
+
+Megnyitjuk az oldalt,egy kis egyszerű html oldal tárul elénk. Ezen az oldalon egy átlagos naptár és egy idő előrejelzést látok.
+Rákattintok a "Login systemre" azaz a beléptetési lehetőségre de mivel még nincs felhasználói fiókom így rögtön tovább is kattintok a regisztrációra. Sok lehetőséget látok de én nem szeretném hogy összekösse a közösségi fiókomat bármivel is így manuális regisztrálok. Miután beléptem ki is választom a megfelelő időpontot,helyszíni témát és létre is hozom. Az oldal jelez nekem hogy várhatólag esni fog mivel csakugyan olyan pontos mint a többi időjárás szolgáltató applikáció. Kiválasztok egy másik időpontot itt napos idő várható. Tovább küldöm  kollégáimnak a weboldalt hogy ők is beregisztrálhassanak és értesüljenek megfelelő időben előtte.
+
+## Olvasmányos dokumentum
+
+Te vagy a főnök? Fárasztó felügyelni mindenkit? Fáradt vagy? Unalmas nézni ahogy dolgoznak a munkások? Unalmas a mindennapi fogaskerék? Itt a megoldásod, szervez egy programot. De hol? Itt egy tökéletes weblap erre.<br>
+Nyaggadtan a telhetetlen dolgzók hogy a napi 16 óra munka mellet nincs semmi életük és fáradtak. Vidd el őket vadászni,szórakozni amit szeretnél persze feltétlenül hétvégén még a feleség is örülni fog neki. Megnyitod a weblapot. Semmi extrát nem látsz de látsz egy beléptetési rendszert. Nincs felhasználód? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot de most külön megszeretnéd nézni hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt kiírja hogy váhatóan alkalmas vagy nem alkalmas az időpont. Ennyire egyszerű. Most már csak annyi a dolgod hogy küldj egy kör emailt és nézd hogy mennyire örülnek ennek a dolgozók.
+
 
 # A projekten dolgozók listája és feladatai:
 
