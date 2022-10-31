@@ -1,0 +1,159 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none; 
+   font-family: 'Anton', sans-serif;
+}
+
+body{
+    font-family:'Poppins';
+    background: black;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(landscape.jpg);
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    position: absolute;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover{  
+   color: #f9004d;
+   transition: .4s;
+}
+
+.navbar .logo{
+    font-size: 3rem;
+    color: #f9004d;
+    font-weight: bolder;
+}
+
+.navbar .nav_links ul{
+    display: flex;
+}
+
+.navbar .nav_links ul li{
+    margin: 0 25px;
+    font-weight: bold
+}
+
+.navbar .nav_links ul li.active a{
+    color: #f9004d;
+    font-weight: 600;
+    font-weight: bold
+}
+
+.navbar .menu_lines{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 35px;
+}
+
+.nav_links .btn{
+    background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+    margin-left: 50px;
+	padding: 10px 25px;
+	border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.nav_links .btn:hover{
+	padding: 15px 30px;
+    color: white;
+}
+
+@media screen and (max-width: 1102px) {
+    .navbar{
+        padding: 0;   
+    }
+
+    .navbar .logo{
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+
+    .navbar .menu_lines{
+       display: block;
+    }
+
+    .nav_links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(8px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -1000%;
+        transition: all 0.5s ease;
+    }
+
+    .nav_links.mobil_menu{
+        margin-top: 0;
+        transition: all 0.5s ease;
+    }
+
+    .nav_links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav_links ul li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+    .nav_links .btn{
+        margin-left: 0px;
+    }
+    
+}
+
+.title{
+    color: #f9004d;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+#about{
+    background-color:#191919;
+}
+
+#contact{
+    background-color:#191919;
+}
+
+
+
