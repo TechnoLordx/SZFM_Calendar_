@@ -7,36 +7,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/d7c018cf91.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <nav class="navbar">
 		<a href="#" class="logo">CALENDAR</a>
         <div class="nav_links">
 			<ul>
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact Us</a></li>
-                <li><a href="#" class="btn">Sign In</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+                <li><a href="#" class="btn" id="sign">Sign In</a></li>
 			</ul>
         </div>
         <img src="menu-btn.png" alt="menu lines" class="menu_lines">
     </nav>
     <script type="text/javascript" src="Script/nav.js"></script>
     <header></header>
-    <section id = "about">
-        <div class="main">
-            <h2 class="title">About Us</h2>
+    <section id = "about" class="mobil_height">
+        <div class="content">
+            <img class="img_team" src="kapibaratok.png" alt="team">
+            <div class="main">
+                <h2 class="title">About Us</h2>
+                <div class="dev_tipp">FrontEnd & <span class="pink">BackEnd</span></div>
+                <div class="about_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eaque amet vero quo dolorem laudantium eveniet necessitatibus, sequi quis, soluta cum veritatis iste, explicabo itaque voluptates atque dolorum dolor ratione?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, necessitatibus blanditiis. Nisi debitis dolores blanditiis, maxime modi quidem odio voluptatibus sint dignissimos ullam quod odit est veniam nesciunt ut necessitatibus.
+                </div>
+            </div>
         </div>
     </section>
-
-    <section id = "services">
-        <h2 class="title">Services</h2>
+    <section id = "services" class="mobil_services">
+        <h2 class="title_serv">Services</h2>
+        <div class="content_sevices">
+            <div class = "block">
+                <i class="fa-solid fa-calendar"></i>
+                <h5 class="title_card">Calendar</h5>
+                <p class="text_card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quo, omnis atque hic non perferendis eum natus ad pariatur </p>
+            </div>
+            <div class = "block">
+                <i class="fa-solid fa-clock"></i>
+                <h5 class="title_card">Schedule</h5>
+                <p  class="text_card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quo, omnis atque hic non perferendis eum natus ad pariatur </p>
+            </div>
+            <div class = "block">
+                <i class="fa-solid fa-cloud"></i>
+                <h5 class="title_card">Weather</h5>
+                <p  class="text_card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quo, omnis atque hic non perferendis eum natus ad pariatur </p>
+            </div>
+        </div>
     </section>
-
-    <section id = "contact">
-        <h2 class="title">Contact Us</h2>
+    <section id = "contact" class="mobil_contact">
+        <h2 class="title_cont"> <a class="submit" href="mailto:kapibaratok@gmail.com"> Contact Us </a></h2>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
     </section>
 </body>
 </html>
