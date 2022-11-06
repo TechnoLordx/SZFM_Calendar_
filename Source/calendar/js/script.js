@@ -81,7 +81,7 @@ let year = c_date.getFullYear();
                             </svg></button>
                         </div>
                         <div class="weather loading">
-                          <h2 class="city">Weather in Denver</h2>
+                          <h2 class="city">Weather in Debrecen</h2>
                           <h1 class="temp">51°C</h1>
                           <div class="flex">
                             <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
