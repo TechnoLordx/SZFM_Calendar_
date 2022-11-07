@@ -95,6 +95,20 @@ A cégünk szeretne létrehozni egy olyan weboldal amely segítene a megbeszél�
     * Láthatunk egy időjárással kapcsolatos ablakot, ami tájékoztat minket az időjárásról, hogy a programokat ennek megfelelően szervezhessük.
 * Lehetőségünk lesz kijelentkezésre, így visszavezet minket a kezdőoldalra, ha például fiókot szeretnénk váltani.
 
+## Igényelt üzleti folyamatok
+* **Miért lesz különleges ez a naptár:** A naptár mellett lesz egy időjárást mutató ablak is.
+Így az adott napról tájékoztatást kapunk, hogy megérné-e nekünk az adott eseményt akkor tartani.
+Például, ha szabadtéri eseményt akarunk rendezni, akkor látjuk, hogy aznap milyen lesz az idő és ezt figyelembe véve ezt hozhatjuk meg a döntést.
+* **Login:** Ha felvesz egy eseményt adott időpontra a felhasználó, akkor ezt tárolnunk kell.
+Ebben egy Login System fog segíteni nekünk.
+Az adatok tárolása bejelentkezéshez lesz kötve, hogy mindenhonnan elérhető legyen.
+Regisztráció és bejelentkezés kötelező lesz.
+Amint megtörténik a bejelentkezés, már kezdhetjük is az események létrehozását.
+* **Regisztráció:** Egyedi felhasználónév, létező és megfelelő email cím, megfelelő hosszúságú és elég erős jelszó megadása.
+Felhasználó tájékoztatása a nem megfelelő adatok megadásáról.
+A jelszó megerősítése szükséges újra megadásával.
+Belépés felhasználónév és jelszóval történik.
+
 
 # Tesztterv
 Minden programot tesztelni kell, mivel sohasem lehet tudni mikor mi nem működik úgy ahogy annak kellene.
@@ -198,6 +212,9 @@ Rákattintok a "Login systemre" azaz a beléptetési lehetőségre de mivel még
 Te vagy a főnök? Fárasztó felügyelni mindenkit? Fáradt vagy? Unalmas nézni ahogy dolgoznak a munkások? Unalmas a mindennapi fogaskerék? Itt a megoldásod, szervez egy programot. De hol? Itt egy tökéletes weblap erre.<br>
 Nyaggadtan a telhetetlen dolgzók hogy a napi 16 óra munka mellet nincs semmi életük és fáradtak. Vidd el őket vadászni,szórakozni amit szeretnél persze feltétlenül hétvégén még a feleség is örülni fog neki. Megnyitod a weblapot. Semmi extrát nem látsz de látsz egy beléptetési rendszert. Nincs felhasználód? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot de most külön megszeretnéd nézni hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt kiírja hogy váhatóan alkalmas vagy nem alkalmas az időpont. Ennyire egyszerű. Most már csak annyi a dolgod hogy küldj egy kör emailt és nézd hogy mennyire örülnek ennek a dolgozók.
 
+## Vágyálom rendszer
+
+A projekt célja az hogy létrehozzunk egy olyan rendszert, ami segíti a minden napi eltünket rendezni, illetve elősegíteni annak minőségét. A rendszert szeretnénk úgy létrehozni, hogy ez minél több ember számára elérhető legyen. Erre legalkalmasabb felületnek egy weboldalt gondolunk, hiszen az bármilyen eszközről elérhető, feltéve ha van internet kapcsolatunk. Ahhoz, hogy elérjük a Naptárt be kell majd jelentkezni, így mindenki számára egyéni beállítások lesznek elérhetők. Az alkalmazáson belűl lehetőség lesz adott témák közűl választani, amiket a napokhoz hozzá rendelhetünk, mint pl: szabadidő, kinti foglalkozás, azon belül egyéb események lesznek megadva ezzel elérve, hogy minnél pontosabb értesítést, ajánlást kapjon a felhasználó az adott napról. Az oldalhoz hozzá lesz rendelve egy időjárás elöre jelzés, ahhonan be szerezzük a szükséges információkat az adott napról. A fent említett 'értesítések, ajánlások' ezeket takarják. Továbbá a bejelentkezés után lesz elérhető a Naptár. Ezen belűl szertnénk egy olyan mezőt létrehozni, ahhol az elkövetkező események jelennek majd meg (az adott heti események), egy időjárás előre jelzést és szerkezthetőség mezőt is szeretnénk hozzáadni. Továbbá célunk, hogy az oldal reszponzív legyen mind asztali mind mobil készülékeken.
 
 # A projekten dolgozók listája és feladatai:
 
