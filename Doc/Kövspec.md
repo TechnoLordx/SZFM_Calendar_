@@ -1,4 +1,4 @@
-# Kővetelmény Specifikációs Dokumentum
+# Követelmény Specifikációs Dokumentum
 
 ## Áttekintés
 
