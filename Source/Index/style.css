@@ -330,6 +330,11 @@ section{
     padding: 20px;
 }
 
+footer{
+	color: #f9004d;
+}
+
+
 .social i:hover{
     cursor: pointer;
     transform: scale(1.3);
