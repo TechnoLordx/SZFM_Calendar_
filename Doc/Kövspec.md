@@ -12,7 +12,7 @@
 
 A cégünk szeretne létrehozni egy olyan weboldalt, amely segítene a megbeszélések szervezésében, az alkalmazottaknak segítene észbe tartani a mindennapi tevékenységeiket. Egy könnyen kezelhető, átlátható weboldal megalkotása a cél. Bejelentkezési rendszer biztosítaná, hogy eltudja érni a felhasználó a saját naptárát, adatait géptől függetlenül, bejelentkezés után. Az alkalmazás segítene a cég, és alkalmazottak életének és munkabeli teendőinek rendezésében. A cégüknél nagy problémát jelentett a rendezetlenség és a késések a megbeszélésekről, találkozókról. Reméljük, hogy egy ilyen alkalmazás megoldást jelent a helyzetre.
 
-## Követelméyeink
+## Követelményeink
 
 * A naptár kezelésével kapcsolatban:
 	* A funkciók eléérései legyenek jól láthatóak, elérhetőek.
