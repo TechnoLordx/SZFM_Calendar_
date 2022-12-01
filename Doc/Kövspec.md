@@ -15,11 +15,11 @@ A cégünk szeretne létrehozni egy olyan weboldalt, amely segítene a megbeszé
 ## Követelményeink
 
 * A naptár kezelésével kapcsolatban:
-	* A funkciók eléérései legyenek jól láthatóak, elérhetőek.
+	* A funkciók elérései legyenek jól láthatóak, elérhetőek.
 	* Legyen könnyen kezelhető, valamint jól átlátható.
 * A vizuális felülettel kapcsolatban:
-	* A vizuális felület legyen tetszetős/kidolgozott, még sem túl bonyolult.
-	* Szeretnénk, hogy a felület is átlátható legyen (látni lehet, hogy mely funkciók hol találhatók, és nem kell kutatni utánuk).
+	* A vizuális felület legyen tetszetős/kidolgozott, mégsem túl bonyolult.
+	* Szeretnénk, hogy a felület is átlátható legyen (látni lehet, hogy mely funkciók hol találhatóak, és nem kell kutatni ezeket).
 	* Az oldal különböző elemei jól különüljenek el egymástól.
 * A naptár funkcióival kapcsolatban:
 	* A weboldalnak képesnek kell lennie elmenteni a haladást, azokat cselekvéseket amelyeket a felhasználó végrehajtott, és ezeket elő kell tudni hívnia készüléktől függetlenül.

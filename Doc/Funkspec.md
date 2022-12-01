@@ -1,7 +1,7 @@
 ## Áttekintés
 
 * Az alkalmazás egy olyan felületet biztosít, amely segít megtervezni a napjainkat.
-* Az alkalmazás egy webes felület lesz, amely olyan módon van megcsinálva, hogy telefonról számítógépről egyaránt elérhető legyen.
+* Az alkalmazás egy webes felület lesz, amely olyan módon van megcsinálva, hogy telefonról és számítógépről egyaránt elérhető legyen.
 * A webboldal főrésze egy naptár lesz, amihez lehet eseményeket hozzáadni, az eseményeknek különböző címkét meg lehet majd adni, az események bekövetkezése előtt egy meghatározott idővel jelezni fog az oldal a közeledő eseményről.
 * Fontos része lesz a projektnek egy beépített időjárás figyelő, amely segít az aznapi programok megszervezésében, illetve jelez, ha az esemény rossz idő miatt nem ajánlott.
 * Bejelentkezési rendszer segítségével tárolva lesz az előrehaladás, illetve ennek segítségével más eszközről is el tudjuk érni a saját naptárunkat.
@@ -13,22 +13,22 @@ A cégünk szeretne létrehozni egy olyan weboldalt, amely segítene a megbeszé
 ## Követelményeink
 
 * A naptár kezelésével kapcsolatban:
-	* A funkciók eléérései legyenek jól láthatók, elérhetők.
-	* Legyen könnyen kezelhető valamint jól átlátható.
+	* A funkciók elérései legyenek jól láthatók, elérhetők.
+	* Legyen könnyen kezelhető, valamint jól átlátható.
     * Interaktív menük, gombok használata.
 * A vizuális felülettel kapcsolatban:
 	* A vizualis felület legyen tetszetős/kidolgozott, mégsem túlkomplikált.
 	* Szeretnénk, hogy a felület is átlátható legyen (látni lehet, hogy mely funkciók hol találhatóak, és nem kell kutatni ezeket).
 	* Az oldal különböző elemei jól különüljenek el egymástól.
     * A stílus megváltoztatási lehetősége.
-    * Az oldal különböző részei vátoznak, alkalmazkodnak a méretarányokhoz.
+    * Az oldal különböző részei változnak, alkalmazkodnak a méretarányokhoz.
 * A naptár funkcióival kapcsolatban:
-	* A weboldalnak képesnek kell lennie elmenteni a haladást, azokat cselekvéseket amelyeket a felhasználó végrehajtott, és ezeket elő kell tudni hívnia készüléktől függetlenül.
-		* Ez azért olyan fontos, hogy ha nincsen a saját eszköze a közelben bejelentkezés után más eszközről is megtudja nézni a fiókját.
-	* Események előtt jelezzen a program az esemény időpontjának közelségéről.
+	* A weboldalnak képesnek kell lennie elmenteni a haladást, azokat cselekvéseket, amelyeket a felhasználó végrehajtott, és ezeket elő kell tudni hívnia készüléktől függetlenül.
+		* Ez azért olyan fontos, hogyha nincsen saját eszköze a közelben bejelentkezés után más eszközről is megtudja nézni a fiókját.
+	* Események előtt jelezzen a program az esemény időpontjának közelgéséről.
         * Értesít alkalmazáson keresztül, illetve emailen kapott levél segítségével.
 	* Időjárási adatai napra készek legyenek.
-        * Jól nézzen ki rendezett legyen, illetve adatai változzanak folyamatosan az időjáráshoz illően.
+        * Jól nézzen ki, rendezett legyen, illetve adatai változzanak folyamatosan az időjáráshoz illően.
 
 
 <img src="oldal_vazlat.png" alt="Oldal vázlata" />
@@ -49,7 +49,7 @@ A cégünk szeretne létrehozni egy olyan weboldalt, amely segítene a megbeszé
 * Bonyolult menürendszer.
 * Reklám megjelenítések.
 * "Like/Dislike" alapú szavazási rendszer kialakítása a hozzászólások megbízhatóságának megszavazása érdekében.
-* Az emberek egymásközött az eseményeket megoszthassák.
+* Az emberek egymás között az eseményeket megoszthassák.
 * Spam e-mail küldése a felhasználónak.
 * A felhasználó adatainak felhasználása haramadik fél által. 
 
@@ -112,13 +112,13 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 ## Forgatókönyv
 ### Egy program megszervezése
 
-Megnyitjuk az oldalt, egy kis egyszerű html oldal tárul elénk. Ezen az oldalon egy átlagos naptár és egy idő előrejelzést látok.
-Rákattintok a "Login systemre" azaz a beléptetési lehetőségre de mivel még nincs felhasználói fiókom így rögtön tovább is kattintok a regisztrációra. Sok lehetőséget látok de én nem szeretném hogy összekösse a közösségi fiókomat bármivel is így manuális regisztrálok. Miután beléptem ki is választom a megfelelő időpontot,helyszíni témát és létre is hozom. Az oldal jelez nekem hogy várhatólag esni fog mivel csakugyan olyan pontos mint a többi időjárás szolgáltató applikáció. Kiválasztok egy másik időpontot itt napos idő várható. Tovább küldöm  kollégáimnak a weboldalt hogy ők is beregisztrálhassanak és értesüljenek megfelelő időben előtte.
+Megnyitjuk az oldalt, egy kis egyszerű html oldal tárul elénk. Ezen az oldalon egy átlagos naptár és egy időjárás előrejelzést látok.
+Rákattintok a "Login system"-re, azaz a beléptetési lehetőségre, de mivel még nincs felhasználói fiókom így rögtön tovább is kattintok a regisztrációra. Sok lehetőséget látok, de én nem szeretném, hogy összekösse a közösségi fiókomat bármivel is, így manuálisan regisztrálok. Miután beléptem, ki is választom a megfelelő időpontot, helyszíni témát, és létre is hozom az eseményt. Az oldal jelez nekem, hogy várhatólag esni fog. Kiválasztok egy másik időpontot. Itt napos idő várható. Tovább küldöm a kollégáimnak a weboldalt, hogy ők is beregisztrálhassanak és értesüljenek megfelelő időben előtte.
 
 ## Olvasmányos dokumentum
 
 Te vagy a főnök? Fárasztó felügyelni mindenkit? Fáradt vagy? Unalmas nézni, ahogy dolgoznak a munkások? Unalmas a mindennapi fogaskerék? Itt a megoldásod, szervezz egy programot! De hol? Itt egy tökéletes weblap erre.<br>
-Szekálnak a telhetetlen dolgzók, hogy a napi 16 óra munka mellet nincs semmi életük és fáradtak? Vidd el őket vadászni, szórakozni, amit szeretnél... persze feltétlenül hétvégén még a feleség is örülni fog neki. Megnyitod a weblapot és már fel is ugrott a belépés rész. Nincs fiókod? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot, de most külön megszeretnéd nézni, hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt kiírja, hogy várhatóan alkalmas vagy nem lesz az időpont. Ennyire egyszerű. Most már csak annyi a dolgod, hogy küldj egy kör emailt és nézd hogy mennyire örülnek ennek a dolgozók.
+Szekálnak a telhetetlen dolgzók, hogy a napi 16 óra munka mellett nincs semmi életük és fáradtak? Vidd el őket vadászni, szórakozni, amit szeretnél... persze feltétlenül hétvégén még a feleség is örülni fog neki. Megnyitod a weblapot és már fel is ugrott a beléptetési felület. Nincs fiókod? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot, de most külön megszeretnéd nézni, hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt kiírja, hogy várhatóan alkalmas vagy nem lesz az időpont. Ennyire egyszerű. Most már csak annyi a dolgod, hogy küldj egy kör emailt és nézd, hogy mennyire örülnek ennek a dolgozók.
 
 
 <img src="advertise.png" alt="Reklám" width=100% height=600/>
