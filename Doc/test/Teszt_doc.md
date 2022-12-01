@@ -41,3 +41,49 @@
 * Természetesen ugyan azt a böngészőt kell használnunk mivel az adatok a böngészőben vannak eltárolva, így különböző böngészőt indítva nem lesz sikeres az adatok betöltése.
 
 ---
+
+## **Kezdőoldal - Mobil menü**
+
+### **Elvárás:**
+* Megadott képernyőméret esetén aktiválja a nav.js ben megírt kódot és a menü átvált a "mobil menü" módba és CSS szkript megváltoztatja a szerkezetet. Ez az új menü átveszi az eredeti kezelőfelület szerepét ezáltal rezponzívvá téve az oldalt.
+
+* Azaz jobb felső sarokba megjelenik 3 vizszintes vonal amire kattintva megnyílik a legőrdülő menü. 
+
+* Eltüntetni rákttintva lehet. Ennek hatására el kell tünnie, egy animációt bejátszva. 
+
+### **Teszt:**
+
+1. Három vonalas dizájn megjelent. (Ami valójában egy kép.)
+
+<img src="mobil_menu.png" alt="Mobil menü">
+
+2. Kattintásra müködött.
+
+<img src="aktiv_mobil_menu.png" alt="aktiv mobil menü">
+
+* A böngésző vizsgálat gombja segítségével lett tesztelve
+* Ezen belül is a Dimensions kategoriába tobb eszközön is tesztelt.
+* Tesztelt ezkoözök : PC , iPhone SE, iPhone 12, iPad Air, Samsung Galaxy S8+
+
+---
+
+## **Kezdőoldal - Elemek elhelyezkedése**
+
+### **Elvárás:**
+* Megadott képernyőméret esetén az oldalnak úgy kell reagálnia, hogy minden szöveg, illetve objektum is reszponzív. Azaz a képből ne lógjanak ki és úgy rendezzék át magukat, hogy az megfeleljen az oldal ktuális állapootának (méret).
+
+### **Teszt:**
+
+1. Asztali eszköz használata esetén így nézki:
+<br>
+
+<img src="objektum.png" alt="aktiv mobil menü">
+
+2. Reszponziv reagálás:
+<br>
+
+<img src="objektum_reszponziv.png" alt="aktiv mobil menü">
+
+* A böngésző vizsgálat gombja segítségével lett tesztelve. Ezen belül is a Dimensions kategoriába tobb eszközön is tesztelt.
+
+* Hasonlóan a mobil menünél, itt is képernyő méretét állítottuk külömböző nagyságúra. Jól lehet látni, hogy az objektumok egymás alá csúsznak és kitőltik a teret.
