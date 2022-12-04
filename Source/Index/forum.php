@@ -24,25 +24,26 @@ if(!isset($_SESSION['username'])){
     <title>Calendar</title>
     <link rel="stylesheet" href="style/styles.css"/>
 </head>
-<body>
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="calendar.php" id="nav__logo">Calendar</a>
-            <div class="navbar__change" id="mobile">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
+<header>
+<nav class="navbar">
+            <a href="#" class="logo">CALENDAR</a>
+            <div class="nav_links">
+                <ul>
+                    
+                    <a href="exit.php" class="btn" id="sign">Sign Out</a>
+                    
+                   
+                    <a href="Calendar.php" class="btn" id="sign">Back</a>
+                    
+                
+                </ul>
+
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="forum.php" class="navbar__links">Forum</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="exit.php" class="button">Log Out</a>
-                </li>
-            </ul>
-        </div>
     </nav>
+    <script type="text/javascript" src="Script/nav.js"></script>
+</header>
+<body>
+    
     <script type="text/javascript" src="javascript/do.js"></script>
 
     <div class="forum__container">
@@ -60,7 +61,7 @@ if(!isset($_SESSION['username'])){
         </div>
     </div>
 
-    <p class="e_egg2"> "To infinity, and beyond! 2/2" </p>
+    
 </body>
     <script>
             if(window.history.replaceState) 
