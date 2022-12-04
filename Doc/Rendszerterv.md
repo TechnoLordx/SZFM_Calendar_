@@ -178,15 +178,14 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 * Az oldal könnyen kezelhető legyen.
 * A felhasználó életének megkönnyítése. 
 * A felhasználók adatainak bizalmas kezelése.
-* A Felhasználók elkülönítése rangszerint
 * A felhasználók egymás között az eseményeket megoszthassák.
 * Programok rögzítése
 * Időpont ütközések problémájának lekezelése.
 * Felmerülő ajánlások vagy esetleg figyelmeztetések mihamarabbi küldése.
 * A szerkezthetőség mező egyértelmű legyen.
-* Minél több esmény téma hozzáadása, ezáltal pontosabb ajánlások.
 
 ## A rendszer nem céljai:
+* A Felhasználók elkülönítése rangszerint
 * Túlzsúfolt kezelő felelület.
 * Összezavaró menürendszer. 
 * Reklám megjelenítések.
@@ -200,12 +199,12 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 ### Egy program megszervezése
 
 Megnyitjuk az oldalt, egy kis egyszerű html oldal tárul elénk. Ezen az oldalon egy átlagos naptár és egy időjárás előrejelzést látok.
-Rákattintok a "Login system"-re, azaz a beléptetési lehetőségre, de mivel még nincs felhasználói fiókom így rögtön tovább is kattintok a regisztrációra. Sok lehetőséget látok, de én nem szeretném, hogy összekösse a közösségi fiókomat bármivel is, így manuálisan regisztrálok. Miután beléptem, ki is választom a megfelelő időpontot, helyszíni témát, és létre is hozom az eseményt. Az oldal jelez nekem, hogy várhatólag esni fog. Kiválasztok egy másik időpontot. Itt napos idő várható. Tovább küldöm a kollégáimnak a weboldalt, hogy ők is beregisztrálhassanak és értesüljenek megfelelő időben előtte.
+Rákattintok a "Login system"-re, azaz a beléptetési lehetőségre, de mivel még nincs felhasználói fiókom így rögtön tovább is kattintok a regisztrációra. Sok lehetőséget látok, de én nem szeretném, hogy összekösse a közösségi fiókomat bármivel is, így manuálisan regisztrálok. Miután beléptem, ki is választom a megfelelő időpontot, helyszíni témát, és létre is hozom az eseményt. Az oldal jelez nekem, hogy várhatólag esni fog. Kiválasztok egy másik időpontot. Itt napos idő várható. Tovább küldöm a többieknek a weboldalt, hogy ők is beregisztrálhassanak és értesüljenek megfelelő időben előtte.
 
 ## Olvasmányos dokumentum
 
-Te vagy a főnök? Fárasztó felügyelni mindenkit? Fáradt vagy? Unalmas nézni, ahogy dolgoznak a munkások? Unalmas a mindennapi fogaskerék? Itt a megoldásod, szervezz egy programot! De hol? Itt egy tökéletes weblap erre.<br>
-Szekálnak a telhetetlen dolgzók, hogy a napi 16 óra munka mellett nincs semmi életük és fáradtak? Vidd el őket vadászni, szórakozni, amit szeretnél... persze feltétlenül hétvégén még a feleség is örülni fog neki. Megnyitod a weblapot és már fel is ugrott a beléptetési felület. Nincs fiókod? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot, de most külön megszeretnéd nézni, hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt kiírja, hogy várhatóan alkalmas vagy nem lesz az időpont. Ennyire egyszerű. Most már csak annyi a dolgod, hogy küldj egy kör emailt és nézd, hogy mennyire örülnek ennek a dolgozók.
+Unalmas a mindennapi fogaskerék? Belefáradtál?Fáradt vagy? Úgy látod nincs kiút a szürke életedből?
+Itt a megoldásod, szervezz egy programot! De hol? Itt egy tökéletes weblap erre. Szétnézel az interneten és nem tudsz választani. Az összes ilyen lehetőség egy sablonos valami? De rátalálsz erre a lehetőségre. Megnyitod a weblapot és már fel is ugrott a beléptetési felület. Nincs fiókod? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot, de most külön megszeretnéd nézni, hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt megnézheted, hogy várhatóan alkalmas vagy nem lesz az időpont. Ennyire egyszerű. Most már csak annyi a dolgod, hogy küldj egy kör emailt és nézd, hogy mennyire örülnek ennek a többiek.
 
 ## Vágyálom rendszer
 

@@ -71,10 +71,10 @@ Nem, de ajánlott.
 Igen, természetesen lehet.
 
 ### Facebookal  lehet regisztrálni?
-Igen, lehet.
+Nem, nem lehet.
 
 ### Google-el  lehet regisztrálni?
-Igen, lehet.
+Nem, nem lehet.
 
 ### Nyári programok szervezésére is van lehetőség?
 Igen, van.
@@ -95,7 +95,7 @@ Igen, van.
 Igen, hisz erre a célra lett kitalálva.
 
 ### Ha elfelejteném a programomat, akkor értesít valamilyen formában?
-Igen, emailben.
+Nem, nincs ilyen.
 
 ### Megbízhatóak az időjárás előrejelzések?
 Igen, pont annyira, amennyire a többi időjárás előrejelző alkalmazásban.
