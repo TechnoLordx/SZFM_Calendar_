@@ -26,8 +26,15 @@ if(!isset($_SESSION['username'])){
 		<a href="#" class="logo">CALENDAR</a>
         <div class="nav_links">
 			<ul>
+                <li>
                 <a href="exit.php" class="btn" id="sign">Sign Out</a>
+                </li>
+                <li>
+                <a href="forum.php" class="btn" id="sign">Comment</a>
+                </li>
+               
 			</ul>
+
         </div>
         <img src="menu-btn.png" alt="menu lines" class="menu_lines">
     </nav>
