@@ -14,6 +14,72 @@ html body .row
     margin-top: 100px;
 }
 
+.navbar{
+    position: relative;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover{  
+   color: #f9004d;
+   transition: .4s;
+}
+
+.navbar .logo{
+    font-size: 3rem;
+    color: #f9004d;
+    font-weight: bolder;
+}
+
+.navbar .nav_links ul{
+    display: flex;
+}
+
+.navbar .nav_links ul li{
+    margin: 0 25px;
+    font-weight: bold
+}
+
+.navbar .nav_links ul li.active a{
+    color: #f9004d;
+    font-weight: 600;
+    font-weight: bold
+}
+
+.navbar .menu_lines{
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 35px;
+}
+
+.nav_links .btn{
+    background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+    margin-left: 50px;
+	padding: 10px 25px;
+	border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.nav_links .btn:hover{
+	padding: 15px 30px;
+    color: white;
+}
+
+
 html body .firstbox
 {
     position: relative;
