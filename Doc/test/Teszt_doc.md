@@ -50,7 +50,7 @@
 
 
 
-<img src="Internet_hianyaban.jpg" alt="Internet nélküli kép">
+<img src="Internet_hianyaban.png" alt="Internet nélküli kép">
 
 
 3. A pontossága tesztelve lett a programnak, hogy milyen nagy eséllyel ad vissza valóságnak megfelelő értékeket.
