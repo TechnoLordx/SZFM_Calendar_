@@ -46,6 +46,17 @@
 
 1. Nem megfelelő város megadásakor nem lép tovább, nem megfelelő városnév amelyik nem létezik illetve ha nem megfelelő formátumú a megadott szöveg. Illetve a városnevek megadásánál kis- és nagybetű különbség nem számít.
 
+2. Internet kapcsolat hiányában nem működik mivel, az adatokat egy nyílt API segítségével kapja meg. Amennyiben nem tudok csatlakozni az internethez, vagy az API-hoz nem ad megfelelő eredményt. Általában ilyenkor vagy az utolsó eltárolt adatot mutatja vagy pedig az API-nak köszönthetően Denver-i időjárást mutatja.
+
+
+
+<img src="Internet_hianyaban.png" alt="Internet nélküli kép">
+
+
+3. A pontossága tesztelve lett a programnak, hogy milyen nagy eséllyel ad vissza valóságnak megfelelő értékeket.
+- Hőmérsékelt : Pontos volt a valóságtól 1-2 fokos eltérést tapasztaltunk maxmimum.
+- Humidity : Az online adatoknak megfelelő adatot ad vissza.
+- Wind speed : Az online adatoknak megfelelő adatot ad vissza.
 
 
 
