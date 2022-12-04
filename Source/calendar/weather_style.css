@@ -1,13 +1,8 @@
-/*body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  background: #222;
-  font-size: 120%;
-}*/
+
+.weather_card{
+  color: white;
+  text-align: center;
+}
 
 .weathermain {
   background: #000000d0;
@@ -58,23 +53,17 @@ button:hover {
 h1.temp {
   margin: 0;
   margin-bottom: 0.4em;
+  margin-top: 1em;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-}
+
 
 .description {
   text-transform: capitalize;
   margin-left: 8px;
 }
 
-.weather.loading {
-  visibility: hidden;
-  max-height: 20px;
-  position: relative;
-}
+
 
 .weather.loading:after {
   visibility: visible;

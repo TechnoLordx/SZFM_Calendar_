@@ -69,8 +69,8 @@ let year = c_date.getFullYear();
                                             
 
                         
-
-                        <div class="weathermain">
+                           <div class="weather_card">                         
+                        
                         <div class="search">
                           <input type="text" class="search-bar" placeholder="Search">
                           <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
@@ -89,9 +89,9 @@ let year = c_date.getFullYear();
                           </div>
                           <div class="humidity">Humidity: 60%</div>
                           <div class="wind">Wind speed: 6.2 km/h</div>
-                        </div>
+                        
                       </div>   
-
+                      </div>   
 
 
 
