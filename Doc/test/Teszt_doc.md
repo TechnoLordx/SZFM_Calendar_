@@ -109,3 +109,19 @@
 * A böngésző vizsgálat gombja segítségével lett tesztelve. Ezen belül is a Dimensions kategoriába tobb eszközön is tesztelt.
 
 * Hasonlóan a mobil menünél, itt is képernyő méretét állítottuk külömböző nagyságúra. Jól lehet látni, hogy az objektumok egymás alá csúsznak és kitőltik a teret.
+
+| Lépések | Elvárt eredmény | Kapott eredmény| Böngésző |PASS / FAIL|Elvégezte|Dátum|
+|---------|-----------------|----------------|----------|-----------|-----|-----|
+|1|A regisztráció gomb megnyomásával a regisztráció fülre visz.|A gomb megnyomásával a kijelzőmegváltozik és betölti a regisztációt.| Brave | PASS| Bezerédi Erik | 2022.12.04|
+|2|A login gomb megnyomásával a login fülre visz.|A gomb megnyomásával a kijelzőmegváltozik és betölti a logint.| Brave | PASS| Bezerédi Erik | 2022.12.04|
+|3|Az adatok kitöltése és a regisztráció gomb megnyomása regisztrál.|A gomb megnyomásával a kijelzőmegváltozik és regisztáció megtörténik.| Brave | PASS| Bezerédi Erik | 2022.12.
+|4|Az adatok kitöltése és a login gomb megnyomása belép.|A gomb megnyomásával a kijelzőmegváltozik és login megtörténik.| Brave | PASS| Bezerédi Erik | 2022.12.04
+|5|A logout gomb megnyomása kilép.|A gomb megnyomásával a kijelzőmegváltozik és sikeresen kijelentkezik.| Brave | PASS| Bezerédi Erik | 2022.12.04
+|6|A comment gomb megnyomása a comment funkcióhoz visz.|A gomb megnyomásával a kijelzőmegváltozik és sikeresen átlép.| Brave | PASS| Bezerédi Erik | 2022.12.04
+|7|Szöveg begépelésénél és enter lenyomásnál elküldi a szöveget|A gomb megnyomásával a kijelzőmegváltozik és sikeresen kiírja a commentet.| Brave | PASS| Bezerédi Erik | 2022.12.04
+|8|Megfelelően kiírja a felhasználó nevét.|Jól kiiírja a nevet!| Brave | PASS| Bezerédi Erik | 2022.12.04
+|9|Az adatok megfelelően vannak tárolva|Az adatokat hibamentesen lementette| Brave | PASS| Bezerédi Erik | 2022.12.04
+|10|Az adat lekérdezés gyors| Azonnal végrehajtja a lekérdezéseket| Brave | PASS | Bezerédi Erik | 2022.12.04
+|11|Jól olvasható minden adat| Minden adat jól olvasható| Brave | PASS | Bezerédi Erik | 2022.12.04
+
+
