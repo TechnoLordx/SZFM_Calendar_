@@ -27,6 +27,9 @@ if(!isset($_SESSION['username'])){
         <div class="nav_links">
 			<ul>
                 <a href="exit.php" class="btn" id="sign">Sign Out</a>
+                <li>
+                <a href="forum.php" class="btn" id="sign">Comment</a>
+                </li>
 			</ul>
         </div>
         <img src="menu-btn.png" alt="menu lines" class="menu_lines">

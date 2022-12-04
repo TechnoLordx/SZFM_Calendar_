@@ -1,430 +1,3 @@
-
-.box2{
-    
-    position: relative;
-    overflow: hidden;
-    background-color: #fff;
-    border-radius: 18px;
-    width: 480px;
-    height: 500px;
-    margin: 20px 10px;
-    white-space: normal;
-    cursor: pointer;
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
-    transition: all .3s cubic-bezier(0.4, 0, 1, 1);
-    text-align:center;
-    justify-content: center;
-    font-size: 32px;
-    color: #030303;
-}
-
-.box3{
-    
-    position: relative;
-    overflow: hidden;
-    background-color: #fff;
-    border-radius: 18px;
-    width: 480px;
-    height: 500px;
-    margin: 20px 10px;
-    white-space: normal;
-    cursor: pointer;
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
-    transition: all .3s cubic-bezier(0.4, 0, 1, 1);
-    text-align:center;
-    justify-content: center;
-    font-size: 64px;
-    text-align: center;
-    color: #583975;
-}
-
-.box1:hover{
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 16%);
-  /*  transform: translateX(calc(max(1024px, 100vw)/2 - 490px)); 
-}
-
-.box2:hover{
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 16%);
-}
-
-.box3:hover{
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 16%);
-}
-*/
-}
-.box_container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-position: center;
-    overflow: hidden;
-}
-
-.cham{
-    display: flex;
-    width: 100%;
-}
-
-.from__container{
-    position: relative;
-    display: flex;
-    width: 100%; 
-    min-height: 750px;
-    border-radius: 32px;
-    box-shadow: 5px 0px 12px #0c0c0c;
-}
-#titlecucc{
-    position: relative;
-    left: 18%;
-    font-size: 64px;
-    padding: 20px 60px;
-    margin: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    background-image: linear-gradient(to top, #311a7c 0%,#7e5b9e 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    text-decoration: none;
-}
-
-#titlecucc:hover{
-    text-shadow: 0px 0px 5px #7e5b9e;
-}
-
-#titleabout{
-    position: relative;
-    left: 18%;
-    font-size: 64px;
-    padding: 20px 60px;
-    margin: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    background-image: linear-gradient(to top, #311a7c 0%,#7e5b9e 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    text-decoration: none;
-}
-
-#titleabout:hover{
-    text-shadow: 0px 0px 5px #7e5b9e;
-}
-
-#title{
-    position: relative;
-    left: 18%;
-    font-size: 64px;
-    padding: 20px 60px;
-    margin: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    background-image: linear-gradient(to top, #311a7c 0%,#7e5b9e 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    text-decoration: none;
-}
-
-#title:hover{
-    text-shadow: 0px 0px 5px #7e5b9e;
-}
-
-#Forum_disc{
-    position: relative;
-    left: 25%;
-    padding: 20px;
-    font-size: 20px;
-    color: #583975;
-}
-
-.important{
-    color: #fff;
-    font-size: 22px;
-}
-
-.sn_cont{
-    color: #fff;
-    text-decoration: none;
-    font-size: 22px;
-}
-
-.sn_cont:hover{
-    color: #583975;
-}
-
-.about__container{
-    position: relative;
-    display: flex;
-    width: 100%; 
-    min-height: 750px;
-    background-color: #0c0c0c;
-}
-
-#About_disc{
-    position: relative;
-    left: 25%;
-    padding: 20px;
-    font-size: 20px;
-    color: #583975;
-}
-
-.lft_disc{
-    text-align: right;
-    position: relative;
-    left: 22%;
-}
-
-.e_egg:hover{
-    color: #583975;
-    font-size: 20px;
-}
-
-.content{
-    position: relative;
-    width: 50em;
-    min-height: 35em;
-    margin: 20px 10px 10px 20px;
-}
-
-/*wiki*/
-
-.wiki__page{
-    position: relative;
-    display: flex;
-    width: 100%; 
-    min-height: 600px;
-    background-color: #0c0c0c;
-}
-
-.discript{
-    position: relative;
-    width: 100%;
-    min-height: 35em;
-    margin: 10px;
-}
-
-.disc{
-    display: flex;
-    width: 100%;
-    min-height: 600px;
-    padding: 20px;
-    font-size: 20px;
-    color: #7e5b9e
-}
-
-.table_deatels{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-y: auto;
-    background-color: #0c0c0c;
-    width: 100%;
-}
-
-table{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-
-@media only screen and (max-width: 1245px){
-    table{
-        transform: translateX(620px);
-    }
-}
-
-tr>th{
-    font-size: 40px;
-    color: #fff;
-    padding: 10px;
-}
-
-tr>td{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    border: 30px solid #0c0c0c;
-}
-
-tr>td:nth-child(2){
-    font-size: 32px
-}
-
-tr>td:nth-child(2):hover{
-    color: #583975;
-    cursor: pointer;
-}
-
-tr>td:nth-child(5){
-    font-size: 30px;
-}
-
-tr>td>img{
-    width: 20vh;
-    height: 20vh;
-}
-
-.bio{
-    font-size: 20px;
-    min-width: 450px;
-    max-height: 50px;
-}
-
-.abilities{
-    font-size: 20px;
-    text-align: left;
-    padding-left: 20px;
-    min-width: 450px;
-    max-height: 50px;
-}
-/* container w3*/
-.container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .checkmark {
-    position: absolute;
-    top: 3px;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-  }
-
-  .container:hover input ~ .checkmark {
-    background-color: #583975;
-  }
-
-  .container input:checked ~ .checkmark {
-    background-color: #442264;
-  }
-
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-  .container .checkmark:after {
-   top: 9px;
-   left: 9px;
-   width: 8px;
-   height: 8px;
-   border-radius: 50%;
-   background: white;
-}
-
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-
-  /* end container */
-
-.click{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.show{
-    display: none;
-    min-width: 400px;
-    max-height: 400px;
-    margin: 10px 0px;
-    color: #030303;
-    padding: 10px;
-    border: 3px solid #442264;
-    border-radius: 8px;
-    background-color: #7e5b9e;
-    transition: all .3s linear;
-}
-
-.click:checked + div{
-    display: block;
-}
-
-/* wiki end */
-
-/* commnet start */
-
-
-.content2{
-  position: relative;
-}
-
-
-.forum__container{
-    position: relative;
-    display: flex;
-    width: 100%;
-    min-height: 250px;
-    justify-content: center;
-    background-color: #442264;
-    border: 3px solid #442264;
-    border-radius: 32px;
-    box-shadow: 5px 0px 12px #0c0c0c;
-}
-
-.mid{
-    position: relative;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.commnet__text{
-    position: relative;
-    width: 400px;
-    height: 80px;
-    padding: 10px;
-    background-color: #fff;
-    resize: none;
-    border: 3px solid #030303;
-    border-radius: 8px;
-}
-
-@media only screen and (max-width: 450px){
-    .commnet__text{
-        width: 350px;
-        }
-
-    .comment__btn{
-        transform: translateX(-50px);
-    }
-
-}
-
 .comment__btn{
     position: relative;
     left: 320px;
@@ -435,86 +8,66 @@ tr>td>img{
     border-radius: 8px;
     color: #0c0c0c;
     cursor: pointer;
-    background-color: #7e5b9e;
+    background-color: #f9004d;
 }
-
-.comment__btn:hover{
-    box-shadow: 0px 0px 10px #7e5b9e
-}
-
 .comment__box{
     position: relative;
     width: 350px;
     min-height: 80px;
     padding: 10px;
     margin: 10px 0px;
-    background-color: #fff;
+    background-color: rgb(225, 102, 102);
     resize: none;
     border: 3px solid #030303;
     border-radius: 8px;
 }
 
-.highlight{
-    width: fit-content;
-    border-radius: 8px;
-    background-color: yellow;
+.commnet__text{
+   background-color: rgb(225, 102, 102);
 }
 
-.none{
-    width: fit-content;
-    background-color: #fff;
+.nav_links .btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
 }
-
-.edit__btn{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 50px;
-    margin: 3px 3px 0 0;
-    border: none;
-    border-radius: 8px;
-    color: #0c0c0c;
-    cursor: pointer;
-    background-color: #fff;
-}
-
-.edit__btn:hover{
-    background-color: #7e5b9e;
-    box-shadow: 0px 0px 10px #7e5b9e
-}
-
-.cancel__btn{
+.navbar {
     position: relative;
-    left: 310px;
-    width: 80px;
-    height: 30px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 8px;
-    color: #0c0c0c;
-    cursor: pointer;
-    background-color: #7e5b9e;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
-.cancel__btn:hover{
-    background-color: #7e5b9e;
-    box-shadow: 0px 0px 10px #7e5b9e
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: rgb(143, 6, 6);
 }
-
-.e_egg2{
+.navbar .logo {
+    font-size: 3rem;
+    color: #f9004d;
+    font-weight: bolder;
+}
+.forum__container {
     position: relative;
-    bottom: 0;
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    min-height: 250px;
+    justify-content: center;
+    background-color: #530303;
+    border: 3px solid #530303;
+    border-radius: 32px;
+    box-shadow: 5px 0px 12px #0c0c0c;
 }
-
-.e_egg2:hover{
-    color: #583975;
-}
-
-/* commnet end */
-
-/* width */
-::-webkit-scrollbar {
-    width: 0px;
-  }
