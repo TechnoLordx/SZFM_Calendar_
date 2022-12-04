@@ -42,6 +42,17 @@
 
 ---
 
+## **Naptár - Időjárás tesztelése**
+
+1. Nem megfelelő város megadásakor nem lép tovább, nem megfelelő városnév amelyik nem létezik illetve ha nem megfelelő formátumú a megadott szöveg. Illetve a városnevek megadásánál kis- és nagybetű különbség nem számít.
+
+
+
+
+
+
+---
+
 ## **Kezdőoldal - Mobil menü**
 
 ### **Elvárás:**
