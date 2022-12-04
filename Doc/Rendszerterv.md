@@ -2,20 +2,20 @@
 * Követelmény specifikáció létrehozásának határideje: 2022.10.17
 * Funkcionális specifikáció létrehozásának határideje: 2022.09.17
 * Rendszterv létrehozásának határideje: 2022.10.24
-* Tesztek megírásának határideje: 2022.11.28
-* A weboldal elkészülésének határideje: 2022.11.28
+* Tesztek megírásának határideje: 2022.12.05
+* A weboldal elkészülésének határideje: 2022.12.05
 
 ## Áttekintés
 
 * Az alkalmazás egy olyan felületet biztosít, amely segít megtervezni a napjainkat.
-* Az alkalmazás egy webes felület lesz, amely olyan módon van megcsinálva hogy, telefonról számítógépről egyaránt elérhető legyen.
-* A webboldal főrésze egy naptár lesz amihez lehet eseményeket hozzáadni, az eseményeknek különböző címkét meg lehet majd adni, az események bekövetkése előtt egy meghatározott idővel jelezni fog az oldal a közeledő eseményről.
-* Fontos része lesz a projektnek egy beépített időjárás figyelő amely segít az aznapi programok megszervezésében, illetve jelez ha az esemény rossz idő miatt elmarad.
+* Az alkalmazás egy webes felület lesz, amely olyan módon van megcsinálva, hogy telefonról és számítógépről egyaránt elérhető legyen.
+* A weboldal főrésze egy naptár lesz, amihez lehet eseményeket hozzáadni, az események bekövetkezése előtt egy meghatározott idővel jelezni fog az oldal a közeledő eseményről.
+* Fontos része lesz a projektnek egy beépített időjárás figyelő, amely segít az aznapi programok megszervezésében, illetve jelez, ha az esemény rossz idő miatt elmarad.
 * Bejelentkezési rendszer segítségével tárolva lesz az előrehaladás, illetve ennek segítségével más eszközről is eltudjuk érni a saját naptárunkat.
 
 ## Jelenlegi helyzet
 
-A cégünk szeretne létrehozni egy olyan weboldal amely segítene a megbeszélések szervezésében, az alkalmazottaknak segítene észbe tartani a mindennapi tevékenységeiket. Egy könnyen kezelhető, átlátható weboldal megalkotása a cél. Bejelentkezési rendszer biztosítaná, hogy eltudja érni a felhasználó a saját naptárát, adatait géptől függetlenül, bejelentkezés után. Az alkalmazás segítene a cég, és alkalmazottak életének és munkabeli teendőinek rendezésében. A cégüknél nagy problémát jelentett a rendezetlenség és a késések a megbeszélésekről, találkozókról reméljük egy ilyen alkalmazás megoldást jelent a helyzetre.
+A cégünk szeretne létrehozni egy olyan weboldalt, amely segítene a megbeszélések szervezésében, az alkalmazottaknak segítene észbe tartani a mindennapi tevékenységeiket. Egy könnyen kezelhető, átlátható weboldal megalkotása a cél. Bejelentkezési rendszer biztosítaná, hogy eltudja érni a felhasználó a saját naptárát, adatait géptől függetlenül, bejelentkezés után. Az alkalmazás segítene a cég, és alkalmazottak életének és munkabeli teendőinek rendezésében. A cégüknél nagy problémát jelentett a rendezetlenség és a késések a megbeszélésekről, találkozókról. Reméljük, hogy egy ilyen alkalmazás megoldást jelent a helyzetre.
 
 ---
 
@@ -56,15 +56,11 @@ A cégünk szeretne létrehozni egy olyan weboldal amely segítene a megbeszél�
 
 **A használati eset a rendszer és a felhasználók közötti kommunikációt írják le.**
 
-* A felhasználók bejelentkezés után tudnak hozzá férni az oldalon található naptárhoz. 
+* A felhasználók bejelentkezés után tudnak hozzáférni az oldalon található naptárhoz. 
 
-* A Főoldalon a naptár mindenkinek egyénre szabott azza az adatbázisba felhasználonként tároljuk az adatokat.
+* A Főoldalon a naptár mindenkinek egyénre szabott azaz az adatbázisban felhasználonként tároljuk az adatokat.
 
-* Lehetőség van cimkéket megadni az eseményekhez, egyszerű kattintással lehet azokat hozzá adni.
-
-* A cimkék egy külön legördülő menuben érhetők el a felhasználónak.
-
-* Az időjárást is meg lehet tekinteni az adott napra és ezáltal előre jelzi az oldal ha az adott napra pl.: szabadtéri eseményt szerveztünk, hogy valószinüleg ez nem fog megvalósulni. Így komunikál az oldal a felhasználókkal.
+* Az időjárást is meg lehet tekinteni az adott napra és ezáltal előre jelzi az oldal, ha az adott napra pl.: szabadtéri eseményt szerveztünk, hogy valószinüleg ez nem fog megvalósulni. Így kommunikál az oldal a felhasználókkal.
 
 ---
 
@@ -84,7 +80,7 @@ A cégünk szeretne létrehozni egy olyan weboldal amely segítene a megbeszél�
 
 
 # Üzleti szereplők
-* A weboldalt bárki használhatja, aki rendelkezik internet hozzáféréssel. 
+* A weboldalt bárki használhatja, aki rendelkezik internet hozzáféréssel.
 * Mivel bárki használhatja, így törekszünk, hogy minél egyszerűbb és könnyen kezelhető legyen a felület.
 
 
@@ -94,6 +90,20 @@ A cégünk szeretne létrehozni egy olyan weboldal amely segítene a megbeszél�
     * Első sorban egy naptár, amin ki lehet választani, hogy melyik napra szeretnénk programot szervezni.
     * Láthatunk egy időjárással kapcsolatos ablakot, ami tájékoztat minket az időjárásról, hogy a programokat ennek megfelelően szervezhessük.
 * Lehetőségünk lesz kijelentkezésre, így visszavezet minket a kezdőoldalra, ha például fiókot szeretnénk váltani.
+
+## Igényelt üzleti folyamatok
+* **Miért lesz különleges ez a naptár:** A naptár mellett lesz egy időjárást mutató ablak is.
+Így az adott napról tájékoztatást kapunk, hogy megérné-e nekünk az adott eseményt akkor tartani.
+Például, ha szabadtéri eseményt akarunk rendezni, akkor látjuk, hogy aznap milyen lesz az idő és ezt figyelembe véve ezt hozhatjuk meg a döntést.
+* **Login:** Ha felvesz egy eseményt adott időpontra a felhasználó, akkor ezt tárolnunk kell.
+Ebben egy Login System fog segíteni nekünk.
+Az adatok tárolása bejelentkezéshez lesz kötve, hogy mindenhonnan elérhető legyen.
+Regisztráció és bejelentkezés kötelező lesz.
+Amint megtörténik a bejelentkezés, már kezdhetjük is az események létrehozását.
+* **Regisztráció:** Egyedi felhasználónév, létező és megfelelő email cím, megfelelő hosszúságú és elég erős jelszó megadása.
+Felhasználó tájékoztatása a nem megfelelő adatok megadásáról.
+A jelszó megerősítése szükséges újra megadásával.
+Belépés felhasználónév és jelszóval történik.
 
 
 # Tesztterv
@@ -127,25 +137,25 @@ A beta teszt pedig már lehet nyilvános is, ilyenkor akárki tesztelheti, aki s
 
 Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem található a programban, és a mások által feltett és a fejlesztő által elfogadott változtatásokat, újításokat is implementáltuk. Ezután meg is történhet a szoftver első kiadása.
 
-## Követelméyeink
+## Követelményeink
 
 * A naptár kezelésével kapcsolatban:
-	* A funkciók eléérései legyenek jól láthatók, elérhetők.
-	* Legyen könnyen kezelhető valamint jól átlátható.
+	* A funkciók elérései legyenek jól láthatók, elérhetők.
+	* Legyen könnyen kezelhető, valamint jól átlátható.
     * Interaktív menük, gombok használata.
 * A vizuális felülettel kapcsolatban:
-	* A vizualis felület legyen tetszetős/kidolgozott, még sem túl komplikált.
-	* Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funkciók hol találhatók, és nem kell kutatni utánuk).
+	* A vizualis felület legyen tetszetős/kidolgozott, mégsem túlkomplikált.
+	* Szeretnénk, hogy a felület is átlátható legyen (látni lehet, hogy mely funkciók hol találhatóak, és nem kell kutatni ezeket).
 	* Az oldal különböző elemei jól különüljenek el egymástól.
-    * A stílus megváltoztatási lehetőége.
-    * Az oldal különböző részei vátoznak, alkalmazkodnak a méretarányokhoz.
+    * A stílus megváltoztatási lehetősége.
+    * Az oldal különböző részei változnak, alkalmazkodnak a méretarányokhoz.
 * A naptár funkcióival kapcsolatban:
-	* A weboldalnak képesnek kell lennie elmenteni a haladást, azokat cselekvéseket amelyeket a felhasználó végrehajtott, és ezeket elő kell tudni hívnia készüléktől függetlenül.
-		* Ez azért olyan fontos, hogy ha nincsen a saját eszköze a közelben bejelentkezés után más eszközről is megtudja nézni a fiókját.
-	* Események előtt jelezzen a program az esemény ideőpontjának közelségéről.
+	* A weboldalnak képesnek kell lennie elmenteni a haladást, azokat cselekvéseket, amelyeket a felhasználó végrehajtott, és ezeket elő kell tudni hívnia készüléktől függetlenül.
+		* Ez azért olyan fontos, hogyha nincsen saját eszköze a közelben bejelentkezés után más eszközről is megtudja nézni a fiókját.
+	* Események előtt jelezzen a program az esemény időpontjának közelgéséről.
         * Értesít alkalmazáson keresztül, illetve emailen kapott levél segítségével.
 	* Időjárási adatai napra készek legyenek.
-        * Jól nézzen ki rendezett legyen, illetve adatai változzanak folyamatosan az időjáráshoz illően.
+        * Jól nézzen ki, rendezett legyen, illetve adatai változzanak folyamatosan az időjáráshoz illően.
 
 
 <img src="oldal_vazlat.png" alt="Oldal vázlata" />
@@ -159,7 +169,7 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 * Egy jól átlátható felület létrehozása.
 * Jól olvasható szöveg, jól elkülönített tartalom.
 * Feltűnő és érdekes kinézet.
-* Az oldal átméretezése során, az oldal tartalma változzon úgy hogy, jól olvasható maradjon.
+* Az oldal átméretezése során, az oldal tartalma változzon úgy, hogy jól olvasható maradjon.
 * Interaktív szöveg és gombok segítsék a felhasználót.
 * Az oldal készítőinek elérhetőségeit feltüntetni.
 * Jól működő login system
@@ -169,123 +179,119 @@ Sikeresnek mondható a teszt, ha már szinte semmiféle probléma nem találhat�
 * A felhasználó életének megkönnyítése. 
 * A felhasználók adatainak bizalmas kezelése.
 * A Felhasználók elkülönítése rangszerint
-* A felhasználók egymáskozött az eseményeket megoszthassák.
+* A felhasználók egymás között az eseményeket megoszthassák.
 * Programok rögzítése
-* Időpont ütkozések problémájának lekezelése.
+* Időpont ütközések problémájának lekezelése.
 * Felmerülő ajánlások vagy esetleg figyelmeztetések mihamarabbi küldése.
-* A szerkezthetőség mező eggyértelmű legyen.
-* Minnél több esmény téma hozzáadása, ezáltal pontosabb ajánlások.
-* Kommunikálni oldalon kívül a felhasználóval
+* A szerkezthetőség mező egyértelmű legyen.
+* Minél több esmény téma hozzáadása, ezáltal pontosabb ajánlások.
 
 ## A rendszer nem céljai:
-* Túl zsúfolt kezelő felelület.
+* Túlzsúfolt kezelő felelület.
 * Összezavaró menürendszer. 
 * Reklám megjelenítések.
-* Felesleges felhasználói rangok
+* Felesleges felhasználói rangok.
 * "Like/Dislike" alapú szavazási rendszer kialakítása a hozzászólások megbízhatóságának megszavazása érdekében.
-* Spam e-mail küldése a felhasználólnak.
-* A felhasználó adatainak felhasználásaT
-* Social regisztráció lehetőség
+* Spam e-mail küldése a felhasználónak.
+* A felhasználó adatainak felhasználása.
+* Social regisztráció lehetőség.
 
 ## Forgatókönyv
 ### Egy program megszervezése
 
-Megnyitjuk az oldalt,egy kis egyszerű html oldal tárul elénk. Ezen az oldalon egy átlagos naptár és egy idő előrejelzést látok.
-Rákattintok a "Login systemre" azaz a beléptetési lehetőségre de mivel még nincs felhasználói fiókom így rögtön tovább is kattintok a regisztrációra. Sok lehetőséget látok de én nem szeretném hogy összekösse a közösségi fiókomat bármivel is így manuális regisztrálok. Miután beléptem ki is választom a megfelelő időpontot,helyszíni témát és létre is hozom. Az oldal jelez nekem hogy várhatólag esni fog mivel csakugyan olyan pontos mint a többi időjárás szolgáltató applikáció. Kiválasztok egy másik időpontot itt napos idő várható. Tovább küldöm  kollégáimnak a weboldalt hogy ők is beregisztrálhassanak és értesüljenek megfelelő időben előtte.
+Megnyitjuk az oldalt, egy kis egyszerű html oldal tárul elénk. Ezen az oldalon egy átlagos naptár és egy időjárás előrejelzést látok.
+Rákattintok a "Login system"-re, azaz a beléptetési lehetőségre, de mivel még nincs felhasználói fiókom így rögtön tovább is kattintok a regisztrációra. Sok lehetőséget látok, de én nem szeretném, hogy összekösse a közösségi fiókomat bármivel is, így manuálisan regisztrálok. Miután beléptem, ki is választom a megfelelő időpontot, helyszíni témát, és létre is hozom az eseményt. Az oldal jelez nekem, hogy várhatólag esni fog. Kiválasztok egy másik időpontot. Itt napos idő várható. Tovább küldöm a kollégáimnak a weboldalt, hogy ők is beregisztrálhassanak és értesüljenek megfelelő időben előtte.
 
 ## Olvasmányos dokumentum
 
-Te vagy a főnök? Fárasztó felügyelni mindenkit? Fáradt vagy? Unalmas nézni ahogy dolgoznak a munkások? Unalmas a mindennapi fogaskerék? Itt a megoldásod, szervez egy programot. De hol? Itt egy tökéletes weblap erre.<br>
-Nyaggadtan a telhetetlen dolgzók hogy a napi 16 óra munka mellet nincs semmi életük és fáradtak. Vidd el őket vadászni,szórakozni amit szeretnél persze feltétlenül hétvégén még a feleség is örülni fog neki. Megnyitod a weblapot. Semmi extrát nem látsz de látsz egy beléptetési rendszert. Nincs felhasználód? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot de most külön megszeretnéd nézni hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt kiírja hogy váhatóan alkalmas vagy nem alkalmas az időpont. Ennyire egyszerű. Most már csak annyi a dolgod hogy küldj egy kör emailt és nézd hogy mennyire örülnek ennek a dolgozók.
+Te vagy a főnök? Fárasztó felügyelni mindenkit? Fáradt vagy? Unalmas nézni, ahogy dolgoznak a munkások? Unalmas a mindennapi fogaskerék? Itt a megoldásod, szervezz egy programot! De hol? Itt egy tökéletes weblap erre.<br>
+Szekálnak a telhetetlen dolgzók, hogy a napi 16 óra munka mellett nincs semmi életük és fáradtak? Vidd el őket vadászni, szórakozni, amit szeretnél... persze feltétlenül hétvégén még a feleség is örülni fog neki. Megnyitod a weblapot és már fel is ugrott a beléptetési felület. Nincs fiókod? Néhány kattintás és persze be is regisztráltál. Kiválasztasz egy napot, de most külön megszeretnéd nézni, hogy milyen idő lesz? Komolyan rá szánsz 3 kattintást? Itt kiírja, hogy várhatóan alkalmas vagy nem lesz az időpont. Ennyire egyszerű. Most már csak annyi a dolgod, hogy küldj egy kör emailt és nézd, hogy mennyire örülnek ennek a dolgozók.
 
+## Vágyálom rendszer
+
+A projekt célja, hogy létrehozzunk egy olyan rendszert, ami segíti a mindennapi életünket rendezni, illetve elősegíteni annak minőségét. A rendszert szeretnénk úgy létrehozni, hogy ez minél több ember számára elérhető legyen. Erre legalkalmasabb felületnek egy weboldalt gondolunk, hiszen az bármilyen eszközről elérhető, feltéve, hogy van internet kapcsolatunk. Ahhoz, hogy elérjük a naptárat, be kell majd jelentkezni, így mindenki számára egyéni beállítások lesznek elérhetőek. Az alkalmazáson belül lehetőség lesz adott témák közül választani, amiket a napokhoz hozzárendelhetünk, mint pl: szabadidő, kinti foglalkozás, azon belül egyéb események lesznek megadva ezzel elérve, hogy minél pontosabb értesítést, ajánlást kapjon a felhasználó az adott napról. Az oldalhoz hozzá lesz rendelve egy időjárás előrejelzés, ahonnan beszerezzük a szükséges információkat az adott napról. A fent említett 'értesítések, ajánlások' ezeket takarják. Továbbá a bejelentkezés után lesz elérhető a naptár. Ezen belül szeretnénk egy olyan mezőt létrehozni, ahol az elkövetkező események jelennek majd meg (az adott heti események), egy időjárás előrejelzést és szerkeszthetőség mezőt is szeretnénk hozzáadni. Továbbá célunk, hogy az oldal reszponzív legyen mind asztali, mind mobil készülékeken.
 
 # A projekten dolgozók listája és feladatai:
 
-1. Bezgerédi Erik - FullStack programozó
+1. Bezerédi Erik - FullStack programozó
 2. Vass Bálint - FullStack programozó
-3. Ilés Zoltán Levente - FullStack programozó
+3. Illés Zoltán Levente - FullStack programozó
 4. Kocsis Olivér - FullStack programozó
 
-* Bezerédi Erik felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
-* Vass Bálint felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
-* Illés Zoltán felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
-* Kocsis Olivér felelős a weboldal mögött futó programok megírása JavaScript nyelven, illetve HTML PHP és CSS fejlesztés is. Hibajavítás és a többiek munkájának ellenőrzése is.
+* Bezerédi Erik felelős a weboldal BackEnd és FrontEnd megírásáért. Figyelnie kell a kinézetre, emellett a háttérben futó folyamatok pontos működésére.
+* Vass Bálint felelős a weboldal BackEnd és FrontEnd megírásáért. Figyelnie kell a kinézetre, emellett a háttérben futó folyamatok pontos működésére.
+* Illés Zoltán felelős a weboldal BackEnd és FrontEnd megírásáért. Figyelnie kell a kinézetre, emellett a háttérben futó folyamatok pontos működésére.
+* Kocsis Olivér felelős a weboldal BackEnd és FrontEnd megírásáért. Figyelnie kell a kinézetre, emellett a háttérben futó folyamatok pontos működésére.
 
 ## Fizikai környezet
 
-Visual studio code-ot használtunk a PHP,CSS,HTML illetve a javascript kódok megírásához. A weboldal megjelenítéséhez külön vásásrolt domaint illetve tárhelyet használunk. Az oldal jelenlegi teszteléséhez XAMOT használunk. Ezen belül futtatunk egy localis szervert és egy localis tárhelyet mellyet később éles webszerverre cserélünk.
+Visual Studio Code-ot használtunk a PHP, CSS, HTML, illetve a JavaScript kódok megírásához. A weboldal megjelenítéséhez külön vásásrolt domaint, illetve tárhelyet használunk. Az oldal jelenlegi teszteléséhez XAMPP-ot használunk. Ezen belül futtatunk egy lokális szervert és egy lokális tárhelyet melyet később éles webszerverre cserélünk.
 
 ### File tipusok
-+ Css
++ CSS
 + PHP
-+ java script
++ JavaScript
 + HTML
-+ jquarry
++ jQuery
 
-### Kölső szoftverek
+### Külső szoftverek
 
-+ Visual studo code
-+ XAMP
++ Visual Studio Code
++ XAMPP
 + Weather api
-+ ....
-+ ....
 
 ## Architektúrális terv
 
 
-A weblap egy online szerveren fut, amit bárki bármikor elérhet megfelelő ha rendelkezik valamilyen internet szolgáltatással.
+A weblap egy online szerveren fut, amit bárki bármikor elérhet, feltéve, hogy rendelkezik valamilyen internet szolgáltatással.
 
-Backend:
-A rendszerhez szükség van egy adatbázis szerverre mely myisam tárolási elven működik. 
-Ebben az esetben MySql-t használunk. A kliens oldali programokat egy javasript alapú api
-szolgálja ki, ez csatlakozik az adatbázis szerverhez is mely képes fogadni és küldeni vagy változtatni 
-adatokat vagy éppen újjakat létrehozni 
+BackEnd:
+A rendszerhez szükség van egy adatbázis szerverre.
+Ebben az esetben MySql-t használunk. A kliens oldali programokat egy JavaScript alapú api szolgálja ki, ez csatlakozik az adatbázis szerverhez is, mely képes fogadni, küldeni, változtatni vagy éppen új adatokat létrehozni.
 Web Kliens:
-A web alkalmazás microsoft.net keretrendszer használatával készül el. A javasript alapú
-lekérő rendszer segítségével az adatokat küldeni és fogadni is tudja. A userek be tudnak lépni
-szintén egy javascript alapú lekérdezés dönti el hogy jogosult-e a belépésre.
+A web alkalmazás Microsoft .NET keretrendszer használatával készül el. A JavaScript alapú lekérő rendszer segítségével az adatokat küldeni és fogadni is tudja.
 Ez biztosítja, hogy illetéktelen felhasználók ne módosíthassák az adatokat.
 
 ## Adatbázis terv
 
-Az adattárolás egy mysql táblák segítségével valósul meg. A login system is ilyen tábla alapján csatlakozik. Egy users tábla tárolja a regisztrációnál tárolt adatokat mellyeket vissza is hív így ellenőrizve hogy a felhasználó jogosult-e a belépéshez. A naptár a naptár_data mysql fileból tölti be vagy törli vagyé épp adja hozzá a terveztett programot. A weather fetch egy openweather api nevű külső szolgáltatástól kéri le az adatokat mellyeket meg is jelenít.
+Az adattárolás egy MySQL táblák segítségével valósul meg. A login system is ilyen tábla alapján csatlakozik. Egy "users" tábla tárolja a regisztrációnál tárolt adatokat melyeket vissza is hív, így ellenőrizve, hogy a felhasználó jogosult-e a belépéshez. A naptár a naptár_data MySQL file-ból tölti be, törli vagy épp adja hozzá a tervezett programot. A weather fetch egy openweather api nevű külső szolgáltatástól kéri le az adatokat, melyeket meg is jelenít.
 
 <img src="kep1.png" alt="Adatbázis terv" style="height:200; width:300;"/>
 
 ## User
 
 ### ID:
-Azonosító ami a primary kulcs is egyedi minden felhasználónak.Int alapú maximális hossza 100 karakter.
+Azonosító, amely egy primary kulcs, ami egyedi minden felhasználónak. Int típusú és maximális hossza 100 karakter.
 ### Firstname:
-Családnév mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+Családnév, mely a regisztrációnal kötelező. Varchar típusú és maximális hossza 100 karakter.
 ### Surname: 
-Keresztnév mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+Keresztnév, mely a regisztrációnal kötelező. Varchar típusú és maximális hossza 100 karakter.
 ### email: 
-Email cím mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+Email cím, mely a regisztrációnal kötelező. Varchar típusú és maximális hossza 100 karakter.
 ### jelszó:
-Jelszó mely a regisztrációnal kötelező. Ezzel lehet bejelentkezni az oldalra. Egyedi minden felhasználónál.Varchar tipúsú maximális hossza 100 karakter.
-### Felhasználó név
-Felhasználó egyedi azonosító bejelentkezésnél kötelező.Varchar tipúsú maximális hossza 100 karakter.
+Jelszó, mely a regisztrációnal kötelező. Ezzel lehet bejelentkezni az oldalra. Egyedi minden felhasználónál. Varchar típusú és maximális hossza 100 karakter.
+### Felhasználónév:
+Felhasználónév egyedi azonosító, bejelentkezésnél kötelező. Varchar típusú és maximális hossza 100 karakter.
 ### Role:
-Role mely a regisztrációnal kötelező.Varchar tipúsú maximális hossza 100 karakter.
+Role, mely a regisztrációnal kötelező. Varchar típusú és maximális hossza 100 karakter.
 ### Gender:
-Nem szerinti elkülönítés regisztrációnal van szerepe.Varchar tipúsú maximális hossza 100 karakter.
+Nem szerinti elkülönítés, a regisztrációnal van szerepe. Varchar típusú és maximális hossza 100 karakter.
 
 ## Calendar_data
 
 ### id
-Azonosító ami a primary kulcs is egyedi minden felhasználónak.Int alapú maximális hossza 100 karakter.
+Azonosító, amely egy primary kulcs, ami egyedi minden felhasználónak. Int típusú és maximális hossza 100 karakter.
 ### title
-Neve a programnak.Varchar típus maximális hossza 100 karakter.
+Neve a programnak. Varchar típusú maximális hossza 100 karakter.
 ### description
-Leírás a programról.Varchar típus maximális hossza 100 karakter.
+Leírás a programról. Varchar típusú maximális hossza 100 karakter.
 ### Start_datetime
-Mikor kezdődik a program.Datetime típus
+Mikor kezdődik a program. Datetime típusú.
 ### end_datetime
-Meddig tart a program.Datetime típus
+Meddig tart a program. Datetime típusú.
 
 ## Karbantartási terv
-A weblap folyamatos üzemeltetése és karbantartása, mely magában foglalja az esetleges hibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott weblap, illetve állomány módosítási igényeket. Idő elteltével új témákat kell hozzáadni a weblaphoz, hogy fent tartsuk az érdeklődési szintet.
+A weblap folyamatos üzemeltetése és karbantartása, mely magába foglalja az esetleges hibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott weblap, illetve állomány módosítási igényeket. Idő elteltével új témákat kell hozzáadni a weblaphoz, hogy fent tartsuk az érdeklődési szintet.
 
 ### Karbantartás
 Corrective Maintenance: A felhasználók által felfedezett és "user reportban" elküldött hibák kijavítása.
@@ -298,7 +304,7 @@ Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem tűnne
 
 ## Fogalomszótár
 1. **Reszponzív felület** - Mobilon, Tableten, *PC*-n igazodik a képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül üzemelhet.”
-2. **Login system** - Bejentkezéshez elkészített rendszer, ahhol felhasználónév plusz jelszó szükséges a belépéshez.
+2. **Login system** - Bejentkezéshez elkészített rendszer, ahol felhasználónév és jelszó szükséges a belépéshez.
 3. **Webböngésző** - A webböngészők a webszerverekkel HTTP protokollon keresztül kommunikálnak. A HTTP segítségével a böngészők adatokat küldhetnek a webszervereknek, valamint weblapokat tölthetnek le róluk.
 4. **Interent** - Az internet olyan globális számítógépes hálózat, amelyen a számítógépek az internetprotokoll (IP) segítségével kommunikálnak. Felhasználók milliárdjait kapcsolja össze és lehetővé teszi olyan elosztott rendszerek működtetését, mint például a világháló (World Wide Web, WWW).
 5. **CSS** -  Egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
@@ -308,7 +314,5 @@ Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem tűnne
 9. **JPEG** - *Joint Photographic Experts Group* képek tárolására alkalmas fájlformátum.
 10. **HTTPS** - *HyperText Transfer Protocol Safe* egy URI-séma, amely biztonságos http kapcsolatot jelöl.
 11. **Kliens** - olyan számítógép vagy azon futó program, amelyik hozzáfér egy *(távoli)* szolgáltatáshoz, amelyet egy számítógép hálózathoz tartozó másik számítógép *(a szerver)* nyújt.
-12. **Frontend:**
-Frontend-nek számít minden, amit egy weboldalon látsz: funkciók, dizájnelemek, felépítés.
-13. **Backend:**
-A Backend a háttérben futó folyamatokkal foglalkozik, pl. szerveroldali programozással, űrlapon beküldött adatok feldolgozásával, statisztika készítéssel.
+12. **Frontend:** - Frontend-nek számít minden, amit egy weboldalon látsz: funkciók, dizájnelemek, felépítés.
+13. **Backend:** - A Backend a háttérben futó folyamatokkal foglalkozik, pl. szerveroldali programozással, űrlapon beküldött adatok feldolgozásával, statisztika készítéssel.
