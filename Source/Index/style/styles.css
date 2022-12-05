@@ -1,0 +1,73 @@
+.comment__btn{
+    position: relative;
+    left: 320px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    color: #0c0c0c;
+    cursor: pointer;
+    background-color: #f9004d;
+}
+.comment__box{
+    position: relative;
+    width: 350px;
+    min-height: 80px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(225, 102, 102);
+    resize: none;
+    border: 3px solid #030303;
+    border-radius: 8px;
+}
+
+.commnet__text{
+   background-color: rgb(225, 102, 102);
+}
+
+.nav_links .btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.navbar {
+    position: relative;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: rgb(143, 6, 6);
+}
+.navbar .logo {
+    font-size: 3rem;
+    color: #f9004d;
+    font-weight: bolder;
+}
+.forum__container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 250px;
+    justify-content: center;
+    background-color: #530303;
+    border: 3px solid #530303;
+    border-radius: 32px;
+    box-shadow: 5px 0px 12px #0c0c0c;
+}

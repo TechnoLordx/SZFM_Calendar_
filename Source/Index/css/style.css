@@ -1,0 +1,208 @@
+html body
+{
+    background:#12121F;
+}
+
+html body .card
+{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+html body .row
+{
+    margin-top: 100px;
+}
+
+.navbar{
+    position: relative;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover{  
+   color: #f9004d;
+   transition: .4s;
+}
+
+.navbar .logo{
+    font-size: 3rem;
+    color: #f9004d;
+    font-weight: bolder;
+}
+
+.navbar .nav_links ul{
+    display: flex;
+}
+
+.navbar .nav_links ul li{
+    margin: 0 25px;
+    font-weight: bold
+}
+
+.navbar .nav_links ul li.active a{
+    color: #f9004d;
+    font-weight: 600;
+    font-weight: bold
+}
+
+.navbar .menu_lines{
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 35px;
+}
+
+.nav_links .btn{
+    background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+    margin-left: 50px;
+	padding: 10px 25px;
+	border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.nav_links .btn:hover{
+	padding: 15px 30px;
+    color: white;
+}
+
+
+html body .firstbox
+{
+    position: relative;
+}
+
+html body .card-header
+{
+    background: #f9004d;
+    color:#fff;
+}
+
+html body .card-header .prevMonth
+{
+    cursor:pointer;
+}
+
+html body .card-header .nextMonth
+{
+    cursor:pointer;
+}
+
+html body .card-body
+{
+    background:#222227;
+    color: #fff;
+}
+
+html body .card-body .days span
+{
+    background:#f9004d;
+    color:#fff;
+    border-radius:50%;
+    display:inline-block;
+    height:45px;
+    width:45px;
+    line-height:45px;
+    cursor:pointer;
+}
+
+html body .card-body .days span:hover
+{
+    background:#ff3333;
+}
+
+html body .card-body .dates span
+{
+    background:#ff4444;
+    color:#000;
+    border-radius:50%;
+    display:inline-block;
+    height:45px;
+    width:45px;
+    line-height:45px;
+    cursor:pointer;
+}
+
+html body .card-body .dates span.active,html body .card-body .dates span:hover
+{
+    background:#cc2222;
+    color:#000;
+}
+
+html body .card-body .dates span.ntMonth
+{
+    color:#000;
+    background:#775555;
+}
+
+html body .card-body .dates span.ntMonth:hover
+{
+    background:#777777;
+    color:#000;
+}
+
+html body .card#event .card-header .close
+{
+    color:#000;
+    opacity:1;
+}
+
+html body .card#event .card-body .events-today
+{
+    height:210px;overflow-x:hidden;
+}
+
+html body .card#event .card-body .events-input .data-invalid
+{
+    border-color:red;
+}
+
+html body .card#event .card-body .events-input .error
+{
+    font-size:12px;
+    color:red;
+    position:absolute;
+    top:100%;
+}
+
+@media(max-width: 767px)
+{
+    html body .row
+    {
+        margin-top: 0px;
+    }
+    html body .pa-sm
+    {
+        position:absolute;
+    }
+    html body .card-body .days span
+    {
+        height:38px;width:38px;
+        line-height:38px;
+        font-size:.8rem;
+    }
+    html body .card-body .dates span
+    {
+        height:38px;
+        width:38px;
+        line-height:38px;
+        font-size:.8rem;
+    }
+    html body .card#event .card-body .events-today
+    {
+        height:188px;
+    }
+}
